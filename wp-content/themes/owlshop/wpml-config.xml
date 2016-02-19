@@ -1,0 +1,8 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_option">
+            <key name="footer-copyright" />
+            <key name="footer_id" />
+        </key> 
+    </admin-texts>
+</wpml-config>

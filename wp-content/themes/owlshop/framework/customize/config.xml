@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<themecustomize>
+	<section id="pgl_owl_new_section_general" title="General" color="false" layout="true" description="" priority="">
+
+		<setting typo="true">
+			<id>pgl_owl_main_font</id>
+			<type>google-font</type>
+			<selector>body</selector>
+			<control label="Main Font" />
+		</setting>
+		
+		<setting typo="true">
+			<id>pgl_owl_title_font</id>
+			<type>google-font</type>
+			<selector>h1,h2,h3,h4,h5,h6,.tabbable .nav-tabs > li a,.pgl-megamenu ul.nav > li > a,.widget-title</selector>
+			<control label="Title Font" />
+		</setting>
+
+		<setting css="true" pattern="true">
+			<id>pgl_owl_body_background_pattern</id>
+			<type>pattern</type>
+			<selector>body,body.boxed</selector>
+			<control label="Body background image (Boxed)" />
+		</setting>
+
+		<setting css="true">
+			<id>pgl_owl_body_background_bg</id>
+			<type>color</type>
+			<selector>body,body.boxed</selector>
+			<property>background</property>
+			<control label="Body BG (Boxed)" />
+		</setting>
+
+		<setting css="true" pattern="true">
+			<id>pgl_owl_breadcrumb_background_color</id>
+			<type>color</type>
+			<selector>.page-title-container</selector>
+			<property>background-color</property>
+			<control label="Breadcrumb background color" />
+		</setting>
+
+	</section>
+
+	<section id="pgl_owl_new_section_header" title="Header" description="" priority="">
+		<setting css="true" pattern="true">
+			<id>pgl_owl_header_background_color</id>
+			<type>color</type>
+			<selector>#pgl-header .header-content</selector>
+			<property>background-color</property>
+			<control label="Header background color" />
+		</setting>
+		<setting css="true" pattern="true">
+			<id>pgl_owl_header_background</id>
+			<type>pattern</type>
+			<selector>#pgl-header .header-content</selector>
+			<control label="Header background image" />
+		</setting>
+		<setting css="true" pattern="true">
+			<id>pgl_owl_search_form_background_color</id>
+			<type>color</type>
+			<selector>.pgl-header .search-wrapper</selector>
+			<property>background-color</property>
+			<control label="Search Form BG" />
+		</setting>
+	</section>
+
+	<section id="pgl_owl_new_section_woocommerce" title="Woocommerce" description="" priority="">
+		<setting css="true">
+			<id>pgl_owl_woocommerce_onsale_bg</id>
+			<type>color</type>
+			<selector>.woocommerce span.onsale, .woocommerce-page span.onsale</selector>
+			<property>background-color</property>
+			<control label="Onsale BG Color" />
+		</setting>
+		<setting css="true">
+			<id>pgl_owl_woocommerce_onsale_color</id>
+			<type>color</type>
+			<selector>.woocommerce span.onsale, .woocommerce-page span.onsale</selector>
+			<property>color</property>
+			<control label="Onsale Color" />
+		</setting>
+		<setting css="true">
+			<id>pgl_owl_woocommerce_star_color</id>
+			<type>color</type>
+			<selector>.woocommerce .star-rating span:before, .woocommerce-page .star-rating span:before</selector>
+			<property>color</property>
+			<control label="Star Color" />
+		</setting>
+		<setting css="true">
+			<id>pgl_owl_woocommerce_star_empty_color</id>
+			<type>color</type>
+			<selector>.woocommerce .star-rating:before, .woocommerce-page .star-rating:before</selector>
+			<property>color</property>
+			<control label="Star empty Color" />
+		</setting>
+	</section>
+
+	
+	<section id="pgl_owl_new_section_footer" title="Footer" description="" priority="">
+		<setting css="true">
+			<id>pgl_owl_footer_content_bg</id>
+			<type>color</type>
+			<selector>.footer-content</selector>
+			<property>background-color</property>
+			<control label="Footer Content BG" />
+		</setting>
+		<setting css="true" pattern="true">
+			<id>pgl_owl_footer_content_bg_image</id>
+			<type>pattern</type>
+			<selector>.footer-content</selector>
+			<property>background-color</property>
+			<control label="Footer Content BG Image" />
+		</setting>
+		<setting css="true">
+			<id>pgl_owl_footer_content_title_color</id>
+			<type>color</type>
+			<selector>.footer-content .widget-title</selector>
+			<property>color</property>
+			<control label="Footer Title Color" />
+		</setting>
+		<setting css="true">
+			<id>pgl_owl_footer_content_color</id>
+			<type>color</type>
+			<selector>.footer-content</selector>
+			<property>color</property>
+			<control label="Footer Color" />
+		</setting>
+		<setting css="true">
+			<id>pgl_owl_footer_content_link_color</id>
+			<type>color</type>
+			<selector>.footer-content a,.pgl-footer .widget .menu > li > a</selector>
+			<property>color</property>
+			<control label="Footer Link Color" />
+		</setting>
+		<setting css="true">
+			<id>pgl_owl_footer_content_link_color_hover</id>
+			<type>color</type>
+			<selector>.footer-content a:hover,.pgl-footer .widget .menu > li > a:hover</selector>
+			<property>color</property>
+			<control label="Footer Link Hover Color" />
+		</setting>
+	</section>
+	<section id="pgl_owl_new_section_copyright" title="Copyright" description="" priority="">
+		<setting css="true">
+			<id>pgl_owl_copyright_bg</id>
+			<type>color</type>
+			<selector>.footer-copyright</selector>
+			<property>background-color</property>
+			<control label="Copyright BG" />
+		</setting>
+		<setting css="true" pattern="true">
+			<id>pgl_owl_footer_content_bg_image</id>
+			<type>pattern</type>
+			<selector>.footer-copyright</selector>
+			<property>background-color</property>
+			<control label="Copyright BG Image" />
+		</setting>
+		<setting css="true">
+			<id>pgl_owl_copyright_color_link</id>
+			<type>color</type>
+			<selector>.footer-copyright a</selector>
+			<property>color</property>
+			<control label="Copyright Link Color" />
+		</setting>
+		<setting css="true">
+			<id>pgl_owl_copyright_color_link_hover</id>
+			<type>color</type>
+			<selector>.footer-copyright a:hover</selector>
+			<property>color</property>
+			<control label="Copyright Link Hover Color" />
+		</setting>
+		<setting css="true">
+			<id>pgl_owl_copyright_color</id>
+			<type>color</type>
+			<selector>.footer-copyright</selector>
+			<property>color</property>
+			<control label="Copyright Color" />
+		</setting>
+	</section>
+</themecustomize>

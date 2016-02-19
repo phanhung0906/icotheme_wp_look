@@ -1,0 +1,80 @@
+
+/**
+ * --------------------------------------------------------------------------------
+ * 1.0 Reset
+ * --------------------------------------------------------------------------------
+ */
+h1,h2,h3,h4,h5,h6,
+.tabbable .nav-tabs > li a,
+.pgl-megamenu ul.nav > li > a,
+.widget-title
+{
+    font-family: @font-heading;
+    font-weight: 700;
+    color:@title-color;
+}
+.tabbable.tab-product .nav-tabs > li a,
+.pgl-megamenu ul.nav > li > a,
+.heading-title
+{
+    letter-spacing: 3px;
+}
+
+.btn{
+    font-family: @font-heading;
+}
+
+a{
+    color:@link-color;
+    &:hover{
+        color:@link-hover-color;
+    }
+}
+address{
+    line-height:1.8;
+}
+
+.float-none{
+    float: none!important;
+}
+
+.audio-responsive{
+    padding-bottom: 30.25%;
+}
+.video-responsive{
+    padding-bottom: 56.25%;
+}
+.video-responsive,.audio-responsive {
+    height        : 0;
+    padding-top   : 0;
+    margin-bottom : 10px;
+    position      : relative;
+    overflow      : hidden;
+    embed,iframe,object,video{
+        top     : 0;
+        left    : 0;
+        width   : 100%;
+        height  : 100%;
+        position: absolute;
+        border:0;
+    }
+}
+
+.panel-group {
+    margin-bottom: 0;
+    .pgl-panel {
+        background-color: transparent;
+        border-radius: 0;
+        box-shadow: none;
+        + .pgl-panel {
+            margin-top: 10px;
+        }
+        .panel-title {
+            font-size: .857em;
+            text-transform: uppercase;
+            a {
+                display: block;
+            }
+        }
+    }
+}

@@ -1,0 +1,5467 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Accessories Woocommerce Theme v1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-04-07 06:21:36+0000\n"
+"Last-Translator: admin <admin@admin.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: comments.php:9
+#@ accessories
+msgid "0 Comment"
+msgstr ""
+
+#: comments.php:9
+#@ accessories
+msgid "1 Comment"
+msgstr "1 Bình Luận"
+
+#: comments.php:9
+#@ accessories
+msgid "% Comments"
+msgstr "% Bình Luận"
+
+#: comments.php:20
+#@ accessories
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:21
+#@ accessories
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:26
+#@ accessories
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:58
+#@ accessories
+msgid "Your email address will not be published."
+msgstr ""
+
+#: framework/admin/options.php:101
+#: framework/redux-framework/sample/sample-config.php:108
+#@ redux-framework-demo
+msgid "Section via hook"
+msgstr ""
+
+#: framework/admin/options.php:102
+#: framework/redux-framework/sample/sample-config.php:109
+#@ redux-framework-demo
+msgid "<p class=\"description\">This is a section created by adding a filter to the sections array. Can be used by child themes to add/remove sections from the options.</p>"
+msgstr ""
+
+#: framework/admin/options.php:169
+#: framework/redux-framework/sample/sample-config.php:189
+#, php-format
+#@ redux-framework-demo
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: framework/admin/options.php:176
+#: framework/admin/options.php:179
+#: framework/redux-framework/sample/sample-config.php:198
+#: framework/redux-framework/sample/sample-config.php:202
+#@ default
+#@ redux-framework-demo
+msgid "Current theme preview"
+msgstr ""
+
+#: framework/admin/options.php:186
+#: framework/redux-framework/sample/sample-config.php:209
+#, php-format
+#@ redux-framework-demo
+msgid "By %s"
+msgstr ""
+
+#: framework/admin/options.php:187
+#: framework/redux-framework/ReduxCore/inc/welcome.php:169
+#: framework/redux-framework/ReduxCore/inc/welcome.php:300
+#: framework/redux-framework/ReduxCore/inc/welcome.php:338
+#: framework/redux-framework/ReduxCore/inc/welcome.php:476
+#: framework/redux-framework/sample/sample-config.php:210
+#, php-format
+#@ redux-framework-demo
+#@ redux-framework
+msgid "Version %s"
+msgstr ""
+
+#: framework/admin/options.php:188
+#: framework/redux-framework/sample/sample-config.php:211
+#@ redux-framework-demo
+msgid "Tags"
+msgstr ""
+
+#: framework/admin/options.php:193
+#: framework/redux-framework/sample/sample-config.php:216
+#, php-format
+#@ default
+#@ redux-framework-demo
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: framework/admin/options.php:193
+#: framework/redux-framework/sample/sample-config.php:216
+#@ redux-framework-demo
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: framework/admin/options.php:218
+#: framework/redux-framework/sample/sample-config.php:555
+#@ redux-framework-demo
+msgid "General Settings"
+msgstr ""
+
+#: framework/admin/options.php:227
+#@ redux-framework-demo
+msgid "Logo"
+msgstr ""
+
+#: framework/admin/options.php:235
+#@ redux-framework-demo
+msgid "Favicon"
+msgstr ""
+
+#: framework/admin/options.php:291
+#@ redux-framework-demo
+msgid "404 Text"
+msgstr ""
+
+#: framework/admin/options.php:292
+#: framework/admin/options.php:494
+#: framework/redux-framework/sample/sample-config.php:636
+#@ redux-framework-demo
+msgid "You can use the following shortcodes in your footer text: [wp-url] [site-url] [theme-url] [login-url] [logout-url] [site-title] [site-tagline] [current-year]"
+msgstr ""
+
+#: framework/admin/options.php:298
+#@ redux-framework-demo
+msgid "Enable Effect Scroll"
+msgstr ""
+
+#: framework/admin/options.php:304
+#@ redux-framework-demo
+msgid "Enable Back to Top button"
+msgstr ""
+
+#: framework/admin/options.php:368
+#: framework/redux-framework/sample/sample-config.php:603
+#@ redux-framework-demo
+msgid "CSS Code"
+msgstr ""
+
+#: framework/admin/options.php:369
+#: framework/redux-framework/sample/sample-config.php:604
+#@ redux-framework-demo
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: framework/admin/options.php:378
+#@ redux-framework-demo
+msgid "JS Code"
+msgstr ""
+
+#: framework/admin/options.php:379
+#@ redux-framework-demo
+msgid "Paste your JS code here."
+msgstr ""
+
+#: framework/admin/options.php:390
+#@ redux-framework-demo
+msgid "Header Settings"
+msgstr ""
+
+#: framework/admin/options.php:396
+#@ redux-framework-demo
+msgid "Header Layout"
+msgstr ""
+
+#: framework/admin/options.php:397
+#@ redux-framework-demo
+msgid "Images for layout header."
+msgstr ""
+
+#: framework/admin/options.php:314
+#: framework/redux-framework/sample/sample-config.php:651
+#@ redux-framework-demo
+msgid "Styling Options"
+msgstr ""
+
+#: framework/admin/options.php:474
+#@ redux-framework-demo
+msgid "Footer Settings"
+msgstr ""
+
+#: framework/admin/options.php:502
+#@ redux-framework-demo
+msgid "Blog Setting"
+msgstr ""
+
+#: framework/admin/options.php:507
+#: framework/redux-framework/sample/sample-config.php:1071
+#@ redux-framework-demo
+msgid "Images Option for Layout"
+msgstr ""
+
+#: framework/admin/options.php:508
+#: framework/redux-framework/sample/sample-config.php:992
+#: framework/redux-framework/sample/sample-config.php:1000
+#: framework/redux-framework/sample/sample-config.php:1019
+#: framework/redux-framework/sample/sample-config.php:1027
+#: framework/redux-framework/sample/sample-config.php:1035
+#: framework/redux-framework/sample/sample-config.php:1049
+#: framework/redux-framework/sample/sample-config.php:1057
+#: framework/redux-framework/sample/sample-config.php:1072
+#: framework/redux-framework/sample/sample-config.php:1140
+#: framework/redux-framework/sample/sample-config.php:1155
+#: framework/redux-framework/sample/sample-config.php:1188
+#: framework/redux-framework/sample/sample-config.php:1197
+#: framework/redux-framework/sample/sample-config.php:1205
+#: framework/redux-framework/sample/sample-config.php:1214
+#: framework/redux-framework/sample/sample-config.php:1222
+#: framework/redux-framework/sample/sample-config.php:1231
+#: framework/redux-framework/sample/sample-config.php:1239
+#: framework/redux-framework/sample/sample-config.php:1248
+#: framework/redux-framework/sample/sample-config.php:1256
+#: framework/redux-framework/sample/sample-config.php:1265
+#: framework/redux-framework/sample/sample-config.php:1283
+#: framework/redux-framework/sample/sample-config.php:1292
+#: framework/redux-framework/sample/sample-config.php:1300
+#: framework/redux-framework/sample/sample-config.php:1309
+#: framework/redux-framework/sample/sample-config.php:1317
+#: framework/redux-framework/sample/sample-config.php:1359
+#: framework/redux-framework/sample/sample-config.php:1370
+#: framework/redux-framework/sample/sample-config.php:1384
+#@ redux-framework-demo
+msgid "No validation can be done on this field type"
+msgstr ""
+
+#: framework/admin/options.php:509
+#: framework/redux-framework/sample/sample-config.php:1073
+#@ redux-framework-demo
+msgid "This uses some of the built in images, you can use them for layout options."
+msgstr ""
+
+#: framework/admin/options.php:524
+#@ redux-framework-demo
+msgid "Sidebar Left"
+msgstr ""
+
+#: framework/admin/options.php:531
+#@ redux-framework-demo
+msgid "Sidebar Right"
+msgstr ""
+
+#: framework/admin/options.php:540
+#@ redux-framework-demo
+msgid "SEO Settings"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:262
+#@ redux-framework-demo
+msgid "Section Show"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:263
+#: framework/redux-framework/sample/sample-config.php:270
+#@ redux-framework-demo
+msgid "With the \"section\" field you can create indent option sections."
+msgstr ""
+
+#: framework/admin/options.php:552
+#@ redux-framework-demo
+msgid "SEO Keywords"
+msgstr ""
+
+#: framework/admin/options.php:560
+#@ redux-framework-demo
+msgid "SEO Description"
+msgstr ""
+
+#: framework/admin/options.php:569
+#@ redux-framework-demo
+msgid "Woocommerce Settings"
+msgstr ""
+
+#: framework/admin/options.php:631
+#@ redux-framework-demo
+msgid "Shop show products"
+msgstr ""
+
+#: framework/admin/options.php:632
+#@ redux-framework-demo
+msgid "To Change number of products displayed per page."
+msgstr ""
+
+#: framework/admin/options.php:639
+#@ redux-framework-demo
+msgid "Shop Columns"
+msgstr ""
+
+#: framework/admin/options.php:678
+#@ redux-framework-demo
+msgid "Related show products"
+msgstr ""
+
+#: framework/admin/options.php:679
+#@ redux-framework-demo
+msgid "To Change number of products displayed related."
+msgstr ""
+
+#: framework/admin/options.php:686
+#@ redux-framework-demo
+msgid "Related Columns"
+msgstr ""
+
+#: framework/admin/options.php:699
+#@ redux-framework-demo
+msgid "Upsells show products"
+msgstr ""
+
+#: framework/admin/options.php:700
+#@ redux-framework-demo
+msgid "To Change number of products displayed up-sell."
+msgstr ""
+
+#: framework/admin/options.php:707
+#@ redux-framework-demo
+msgid "Upsells Columns"
+msgstr ""
+
+#: framework/admin/options.php:720
+#@ redux-framework-demo
+msgid "Cross Sells show products"
+msgstr ""
+
+#: framework/admin/options.php:721
+#@ redux-framework-demo
+msgid "To Change number of products displayed cross sells."
+msgstr ""
+
+#: framework/admin/options.php:728
+#@ redux-framework-demo
+msgid "Cross Sells Columns"
+msgstr ""
+
+#: framework/admin/options.php:612
+#@ redux-framework-demo
+msgid "Shop Layout"
+msgstr ""
+
+#: framework/admin/options.php:613
+#: framework/admin/options.php:660
+#: framework/redux-framework/sample/sample-config.php:562
+#@ redux-framework-demo
+msgid "Select main content and sidebar alignment. Choose between 1, 2 or 3 column layout."
+msgstr ""
+
+#: framework/admin/options.php:659
+#@ redux-framework-demo
+msgid "Single Layout"
+msgstr ""
+
+#: framework/admin/options.php:671
+#@ redux-framework-demo
+msgid "Single Sidebar"
+msgstr ""
+
+#: framework/admin/options.php:580
+#@ redux-framework-demo
+msgid "Enable Effect Image"
+msgstr ""
+
+#: framework/admin/options.php:742
+#@ redux-framework-demo
+msgid "Megamenu Settings"
+msgstr ""
+
+#: framework/admin/options.php:747
+#@ redux-framework-demo
+msgid "Mega Menu"
+msgstr ""
+
+#: framework/admin/options.php:761
+#@ redux-framework-demo
+msgid "Animation"
+msgstr ""
+
+#: framework/admin/options.php:772
+#@ redux-framework-demo
+msgid "Duration"
+msgstr ""
+
+#: framework/admin/options.php:773
+#@ redux-framework-demo
+msgid "Animation effect duration for dropdown of Megamenu (in miliseconds)."
+msgstr ""
+
+#: framework/admin/options.php:785
+#: framework/redux-framework/ReduxCore/inc/import_export.php:140
+#: framework/redux-framework/ReduxCore/inc/import_export.php:149
+#: framework/redux-framework/ReduxCore/inc/import_export.php:150
+#: framework/redux-framework/sample/sample-config.php:1533
+#@ redux-framework-demo
+#@ redux-framework
+msgid "Import / Export"
+msgstr ""
+
+#: framework/admin/options.php:786
+#: framework/redux-framework/sample/sample-config.php:1534
+#@ redux-framework-demo
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+
+#: framework/admin/options.php:802
+#: framework/redux-framework/class.redux-plugin.php:410
+#: framework/redux-framework/sample/sample-config.php:1337
+#: framework/redux-framework/sample/sample-config.php:1567
+#: framework/redux-framework/sample/sample-config.php:1713
+#@ redux-framework-demo
+#@ redux-framework
+msgid "Documentation"
+msgstr ""
+
+#: framework/admin/options.php:813
+#: framework/redux-framework/sample/barebones-config.php:84
+#: framework/redux-framework/sample/sample-config.php:1578
+#@ redux-framework-demo
+msgid "Theme Information 1"
+msgstr ""
+
+#: framework/admin/options.php:814
+#: framework/admin/options.php:820
+#: framework/redux-framework/sample/barebones-config.php:85
+#: framework/redux-framework/sample/barebones-config.php:91
+#: framework/redux-framework/sample/sample-config.php:1579
+#: framework/redux-framework/sample/sample-config.php:1585
+#@ redux-framework-demo
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: framework/admin/options.php:819
+#: framework/redux-framework/sample/barebones-config.php:90
+#: framework/redux-framework/sample/sample-config.php:1584
+#@ redux-framework-demo
+msgid "Theme Information 2"
+msgstr ""
+
+#: framework/admin/options.php:824
+#: framework/redux-framework/sample/barebones-config.php:95
+#: framework/redux-framework/sample/sample-config.php:1589
+#@ redux-framework-demo
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: framework/admin/options.php:844
+#: framework/admin/options.php:845
+#@ redux-framework-demo
+msgid "Theme Options"
+msgstr ""
+
+#: framework/admin/options.php:920
+#: framework/redux-framework/sample/barebones-config.php:236
+#: framework/redux-framework/sample/sample-config.php:1758
+#, php-format
+#@ redux-framework-demo
+msgid "<p>Did you know that Redux sets a global variable for you? To access any of your saved options from within your code you can use your global variable: <strong>$%1$s</strong></p>"
+msgstr ""
+
+#: framework/admin/options.php:922
+#: framework/redux-framework/sample/barebones-config.php:238
+#: framework/redux-framework/sample/sample-config.php:1760
+#@ redux-framework-demo
+msgid "<p>This text is displayed above the options panel. It isn't required, but more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+
+#: framework/admin/options.php:926
+#: framework/redux-framework/sample/barebones-config.php:242
+#: framework/redux-framework/sample/sample-config.php:1764
+#@ redux-framework-demo
+msgid "<p>This text is displayed below the options panel. It isn't required, but more info is always better! The footer_text field accepts all HTML.</p>"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:138
+#: framework/framework.php:236
+#@ tgmpa
+#@ accessories
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:139
+#: framework/framework.php:237
+#@ tgmpa
+#@ accessories
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:140
+#: framework/framework.php:238
+#, php-format
+#@ tgmpa
+#@ accessories
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:141
+#@ tgmpa
+msgid "Something went wrong."
+msgstr ""
+
+#: framework/admin/plugin-activation.php:142
+#: framework/framework.php:240
+#, php-format
+#@ accessories
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugin-activation.php:143
+#: framework/framework.php:241
+#, php-format
+#@ accessories
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugin-activation.php:144
+#: framework/framework.php:242
+#, php-format
+#@ accessories
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugin-activation.php:145
+#: framework/framework.php:243
+#, php-format
+#@ accessories
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugin-activation.php:146
+#: framework/framework.php:244
+#, php-format
+#@ accessories
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugin-activation.php:147
+#: framework/framework.php:245
+#, php-format
+#@ accessories
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugin-activation.php:148
+#: framework/framework.php:246
+#, php-format
+#@ accessories
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugin-activation.php:149
+#: framework/framework.php:247
+#, php-format
+#@ accessories
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugin-activation.php:150
+#: framework/framework.php:248
+#@ accessories
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugin-activation.php:151
+#: framework/framework.php:249
+#@ accessories
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugin-activation.php:152
+#: framework/framework.php:250
+#@ tgmpa
+#@ accessories
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:153
+#@ tgmpa
+msgid "Return to the dashboard"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:154
+#: framework/admin/plugin-activation.php:1822
+#: framework/framework.php:251
+#@ tgmpa
+#@ accessories
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/admin/plugin-activation.php:156
+#, php-format
+#@ tgmpa
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:157
+#@ tgmpa
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1067
+#@ tgmpa
+msgid "External Link"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1072
+#@ tgmpa
+msgid "Private Repository"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1075
+#@ tgmpa
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1079
+#@ tgmpa
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1082
+#@ tgmpa
+msgid "Required"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1082
+#@ tgmpa
+msgid "Recommended"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1085
+#@ tgmpa
+msgid "Not Installed"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1087
+#@ tgmpa
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1257
+#, php-format
+#@ tgmpa
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1273
+#@ tgmpa
+msgid "Plugin"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1274
+#@ tgmpa
+msgid "Source"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1275
+#: framework/megamenu/template/editor.php:32
+#@ tgmpa
+#@ accessories
+msgid "Type"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1276
+#: woocommerce/myaccount/my-orders.php:35
+#: woocommerce/myaccount/my-orders.php:123
+#@ tgmpa
+#@ woocommerce
+msgid "Status"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1294
+#@ tgmpa
+msgid "Install"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1295
+#@ tgmpa
+msgid "Activate"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: framework/admin/plugin-activation.php:1520
+#: framework/admin/plugin-activation.php:155
+#@ tgmpa
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/plugin-activation.php:1805
+#@ tgmpa
+msgid "Install package not available."
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1806
+#, php-format
+#@ tgmpa
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1807
+#@ tgmpa
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1808
+#@ tgmpa
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1809
+#@ tgmpa
+msgid "Plugin install failed."
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1810
+#@ tgmpa
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1821
+#@ tgmpa
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1931
+#@ tgmpa
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1932
+#, php-format
+#@ tgmpa
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1932
+#: framework/admin/plugin-activation.php:1941
+#@ tgmpa
+msgid "Show Details"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1932
+#: framework/admin/plugin-activation.php:1941
+#@ tgmpa
+msgid "Hide Details"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1933
+#@ tgmpa
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1934
+#, php-format
+#@ tgmpa
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1938
+#@ tgmpa
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1939
+#, php-format
+#@ tgmpa
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1940
+#, php-format
+#@ tgmpa
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1941
+#, php-format
+#@ tgmpa
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1942
+#@ tgmpa
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/admin/plugin-activation.php:1943
+#, php-format
+#@ tgmpa
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/admin/plugin-activation.php:2034
+#@ tgmpa
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/framework.php:239
+#@ accessories
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/framework.php:252
+#, php-format
+#@ accessories
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: framework/framework.php:761
+#@ accessories
+msgid " seconds ago"
+msgstr ""
+
+#: framework/framework.php:767
+#@ accessories
+msgid " minutes ago"
+msgstr ""
+
+#: framework/framework.php:773
+#@ accessories
+msgid " hours ago"
+msgstr ""
+
+#: framework/framework.php:780
+#@ accessories
+msgid " days ago"
+msgstr ""
+
+#: framework/framework.php:783
+#@ accessories
+msgid " weeks ago"
+msgstr ""
+
+#: framework/front/function.php:8
+#@ accessories
+msgid "Main Menu"
+msgstr ""
+
+#: framework/front/function.php:218
+#: single.php:22
+#@ accessories
+msgid "Share this Post!"
+msgstr ""
+
+#: framework/admin/options.php:624
+#: framework/front/function.php:278
+#@ redux-framework-demo
+#@ accessories
+msgid "Shop Sidebar"
+msgstr ""
+
+#: framework/front/function.php:280
+#: framework/front/function.php:290
+#: framework/front/function.php:300
+#: framework/front/function.php:310
+#: framework/front/function.php:320
+#: framework/front/function.php:330
+#: framework/front/function.php:339
+#: framework/front/function.php:348
+#: framework/front/function.php:358
+#@ accessories
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: framework/front/function.php:298
+#@ accessories
+msgid "Blog Sidebar"
+msgstr ""
+
+#: framework/front/function.php:318
+#@ accessories
+msgid "Footer 1"
+msgstr ""
+
+#: framework/front/function.php:328
+#@ accessories
+msgid "Footer 2"
+msgstr ""
+
+#: framework/front/function.php:337
+#@ accessories
+msgid "Footer 3"
+msgstr ""
+
+#: framework/front/function.php:346
+#@ accessories
+msgid "Footer 4"
+msgstr ""
+
+#: templates/header/header-1.php:18
+#: templates/header/header-2.php:22
+#: woocommerce/global/form-login.php:40
+#: woocommerce/myaccount/form-login.php:27
+#: woocommerce/myaccount/form-login.php:46
+#@ accessories
+#@ woocommerce
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:34
+#@ woocommerce
+msgid "Username or email address"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/password/field_password.php:62
+#: woocommerce/global/form-login.php:30
+#: woocommerce/myaccount/form-login.php:38
+#: woocommerce/myaccount/form-login.php:91
+#@ redux-framework
+#@ woocommerce
+msgid "Password"
+msgstr ""
+
+#: woocommerce/global/form-login.php:43
+#: woocommerce/myaccount/form-login.php:51
+#@ woocommerce
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:47
+#: woocommerce/myaccount/form-login.php:55
+#@ woocommerce
+msgid "Lost your password?"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:153
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:207
+#@ redux-framework
+msgid "URL"
+msgstr ""
+
+#: framework/metabox/meta-item.php:201
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:149
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:204
+#@ accessories
+#@ redux-framework
+msgid "Description"
+msgstr ""
+
+#: framework/metabox/helpers/cmb_Meta_Box_types.php:306
+#: framework/metabox/helpers/cmb_Meta_Box_types.php:706
+#: framework/metabox/helpers/cmb_Meta_Box_types.php:768
+#: framework/redux-framework/ReduxCore/inc/fields/background/field_background.php:321
+#: framework/redux-framework/ReduxCore/inc/fields/media/field_media.php:200
+#: framework/redux-framework/ReduxCore/inc/fields/multi_text/field_multi_text.php:69
+#: framework/redux-framework/ReduxCore/inc/fields/multi_text/field_multi_text.php:73
+#: framework/redux-framework/ReduxCore/inc/fields/multi_text/field_multi_text.php:76
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:133
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:190
+#@ cmb
+#@ redux-framework
+msgid "Remove"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:277
+#: woocommerce/myaccount/my-orders.php:76
+#: woocommerce/myaccount/my-orders.php:164
+#@ accessories
+#@ woocommerce
+msgid "Cancel"
+msgstr ""
+
+#: framework/megamenu/includes/shortcodes.php:71
+#@ megamenu
+msgid "No button for this"
+msgstr ""
+
+#: framework/megamenu/includes/shortcodes.php:82
+#@ megamenu
+msgid "No data for this"
+msgstr ""
+
+#: framework/megamenu/widgets/content.php:25
+#@ accessories
+msgid "Content"
+msgstr ""
+
+#: framework/megamenu/widgets/content.php:28
+#@ megamenu
+msgid "Put Content Here"
+msgstr ""
+
+#: framework/megamenu/widgets/content.php:34
+#: framework/megamenu/widgets/image.php:40
+#: framework/megamenu/widgets/sidebar.php:37
+#@ accessories
+msgid "Addition Class"
+msgstr ""
+
+#: framework/megamenu/widgets/content.php:37
+#: framework/megamenu/widgets/image.php:43
+#: framework/megamenu/widgets/sidebar.php:40
+#@ megamenu
+#@ accessories
+msgid "Using to make own style"
+msgstr ""
+
+#: framework/megamenu/widgets/gmap.php:28
+#@ accessories
+msgid "Count Item"
+msgstr ""
+
+#: framework/megamenu/widgets/gmap.php:37
+#@ accessories
+msgid "Map Height"
+msgstr ""
+
+#: framework/megamenu/widgets/gmap.php:45
+#: framework/megamenu/widgets/gmap.php:59
+#@ accessories
+msgid "Map type"
+msgstr ""
+
+#: framework/megamenu/widgets/products.php:64
+#: woocommerce/widgets/widget-products.php:30
+#@ accessories
+#@ woocommerce
+msgid "Number of products to show"
+msgstr ""
+
+#: framework/megamenu/widgets/sidebar.php:30
+#@ accessories
+msgid "Sidebar"
+msgstr ""
+
+#: framework/megamenu/widgets/sidebar.php:33
+#@ megamenu
+msgid "Display all widgets on selected sidebar"
+msgstr ""
+
+#: framework/metabox/meta-item.php:189
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:145
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:200
+#: vc_templates/vc_text_separator.php:4
+#: woocommerce/widgets/widget-products.php:22
+#@ accessories
+#@ redux-framework
+#@ js_composer
+#@ woocommerce
+msgid "Title"
+msgstr ""
+
+#: framework/metabox/helpers/cmb_Meta_Box_ajax.php:47
+#@ cmb
+msgid "Please Try Again"
+msgstr ""
+
+#: framework/metabox/helpers/cmb_Meta_Box_ajax.php:131
+#@ cmb
+msgid "Remove Embed"
+msgstr ""
+
+#: framework/metabox/helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+#@ cmb
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: framework/metabox/helpers/cmb_Meta_Box_field.php:459
+#@ cmb
+msgid "Add Group"
+msgstr ""
+
+#: framework/metabox/helpers/cmb_Meta_Box_field.php:460
+#@ cmb
+msgid "Remove Group"
+msgstr ""
+
+#: framework/metabox/helpers/cmb_Meta_Box_types.php:250
+#@ cmb
+msgid "Add Row"
+msgstr ""
+
+#: framework/metabox/helpers/cmb_Meta_Box_types.php:601
+#: framework/metabox/helpers/cmb_Meta_Box_types.php:635
+#@ cmb
+msgid "No terms"
+msgstr ""
+
+#: framework/metabox/helpers/cmb_Meta_Box_types.php:674
+#: framework/metabox/helpers/cmb_Meta_Box_types.php:728
+#@ cmb
+msgid "Add or Upload File"
+msgstr ""
+
+#: framework/metabox/helpers/cmb_Meta_Box_types.php:695
+#: framework/metabox/helpers/cmb_Meta_Box_types.php:760
+#@ cmb
+msgid "Remove Image"
+msgstr ""
+
+#: framework/metabox/helpers/cmb_Meta_Box_types.php:706
+#: framework/metabox/helpers/cmb_Meta_Box_types.php:768
+#@ cmb
+msgid "File:"
+msgstr ""
+
+#: framework/metabox/helpers/cmb_Meta_Box_types.php:706
+#: framework/metabox/helpers/cmb_Meta_Box_types.php:768
+#: framework/redux-framework/ReduxCore/inc/import_export.php:104
+#@ cmb
+#@ redux-framework
+msgid "Download"
+msgstr ""
+
+#: framework/customize/controller.php:48
+#: framework/customize/controller.php:90
+#: framework/customize/front.php:43
+#: framework/customize/front.php:129
+#: framework/customize/front.php:150
+#: framework/metabox/init.php:258
+#@ accessories
+msgid "Clear"
+msgstr ""
+
+#: framework/customize/front.php:44
+#: framework/metabox/init.php:259
+#: framework/redux-framework/ReduxCore/framework.php:2253
+#@ accessories
+#@ redux-framework
+msgid "Default"
+msgstr ""
+
+#: framework/customize/front.php:45
+#: framework/metabox/init.php:260
+#@ accessories
+msgid "Select Color"
+msgstr ""
+
+#: framework/metabox/init.php:261
+#@ accessories
+msgid "Current Color"
+msgstr ""
+
+#: framework/metabox/init.php:288
+#@ cmb
+msgid "Select / Deselect All"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:16
+#: framework/metabox/init.php:1177
+#: woocommerce/myaccount/form-change-password.php:41
+#: woocommerce/myaccount/form-change-password.php:77
+#: woocommerce/myaccount/form-lost-password.php:48
+#@ accessories
+#@ woocommerce
+msgid "Save"
+msgstr ""
+
+#: framework/metabox/meta-item.php:138
+#@ accessories
+msgid "Page Config"
+msgstr ""
+
+#: framework/metabox/meta-item.php:32
+#@ accessories
+msgid "Layout"
+msgstr ""
+
+#: framework/metabox/meta-item.php:33
+#@ accessories
+msgid "Select Layout"
+msgstr ""
+
+#: framework/metabox/meta-item.php:66
+#@ accessories
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/metabox/meta-item.php:72
+#@ accessories
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/metabox/meta-item.php:77
+#@ accessories
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: framework/metabox/meta-item.php:82
+#@ accessories
+msgid "Blog pages show at most"
+msgstr ""
+
+#: framework/metabox/meta-item.php:88
+#@ accessories
+msgid "Blog Skin"
+msgstr ""
+
+#: framework/metabox/meta-item.php:117
+#@ accessories
+msgid "Header Style"
+msgstr ""
+
+#: framework/metabox/meta-item.php:121
+#@ accessories
+msgid "Use Global"
+msgstr ""
+
+#: framework/metabox/meta-item.php:122
+#@ accessories
+msgid "Style 1"
+msgstr ""
+
+#: framework/metabox/meta-item.php:123
+#@ accessories
+msgid "Style 2"
+msgstr ""
+
+#: framework/metabox/meta-item.php:149
+#@ accessories
+msgid "Post Config"
+msgstr ""
+
+#: framework/metabox/meta-item.php:157
+#@ accessories
+msgid "Link Video or Audio"
+msgstr ""
+
+#: framework/metabox/meta-item.php:158
+#@ accessories
+msgid "Enter a youtube, twitter, or instagram URL. Supports services listed at <a href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress.org/Embeds</a>."
+msgstr ""
+
+#: framework/metabox/meta-item.php:181
+#@ accessories
+msgid "Seo Options"
+msgstr ""
+
+#: framework/metabox/meta-item.php:196
+#@ accessories
+msgid "Keywords"
+msgstr ""
+
+#: framework/megamenu/widgets/image.php:26
+#@ accessories
+msgid "Image"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:276
+#@ redux-framework
+msgid "Style"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:105
+#@ accessories
+msgid "Icon"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/extensions/customizer/extension_customizer.php:530
+#: framework/redux-framework/ReduxCore/framework.php:1950
+#@ redux-framework
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/extensions/customizer/extension_customizer.php:531
+#: framework/redux-framework/ReduxCore/framework.php:1958
+#@ redux-framework
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/extensions/customizer/extension_customizer.php:532
+#: framework/redux-framework/ReduxCore/framework.php:1974
+#@ redux-framework
+msgid "Your current options will be replaced with the values of this preset. Would you like to proceed?"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/extensions/customizer/extension_customizer.php:565
+#@ redux-framework
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/extensions/customizer/extension_customizer.php:566
+#@ redux-framework
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/extensions/customizer/extension_customizer.php:567
+#@ redux-framework
+msgid "Your current options will be replaced with the values of this preset.  Would you like to proceed?"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:213
+#, php-format
+#@ redux-framework
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:213
+#@ redux-framework
+msgid "Redux Framework"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:217
+#: framework/redux-framework/ReduxCore/framework.php:221
+#@ redux-framework
+msgid "Options"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:1369
+#: framework/redux-framework/ReduxCore/framework.php:1370
+#: framework/redux-framework/ReduxCore/framework.php:3587
+#: framework/redux-framework/ReduxCore/framework.php:3666
+#@ redux-framework
+msgid "System Info"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:1966
+#@ redux-framework
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:1981
+#@ redux-framework
+msgid "Please Wait"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:2128
+#@ redux-framework
+msgid "Hints"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:3334
+#@ redux-framework
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:3385
+#@ redux-framework
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:3413
+#@ redux-framework
+msgid "Expand"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:3415
+#: framework/redux-framework/ReduxCore/framework.php:3723
+#@ redux-framework
+msgid "Save Changes"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:3419
+#: framework/redux-framework/ReduxCore/framework.php:3727
+#@ redux-framework
+msgid "Reset Section"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:3421
+#: framework/redux-framework/ReduxCore/framework.php:3729
+#@ redux-framework
+msgid "Reset All"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:3426
+#: framework/redux-framework/ReduxCore/framework.php:3734
+#@ redux-framework
+msgid "Working..."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:3446
+#@ redux-framework
+msgid "Settings Imported!"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:3461
+#@ redux-framework
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:3475
+#@ redux-framework
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:3489
+#@ redux-framework
+msgid "Settings Saved!"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:3507
+#@ redux-framework
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:3515
+#@ redux-framework
+msgid "error(s) were found!"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:3523
+#@ redux-framework
+msgid "warning(s) were found!"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/class.redux_filesystem.php:22
+#@ redux-framework
+msgid "Unable to create a required directory. Please ensure that"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/class.redux_filesystem.php:24
+#@ redux-framework
+msgid "has the proper read/write permissions or enter your FTP information below."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/class.redux_functions.php:253
+#@ redux-framework
+msgid "Dismiss"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/debug.php:41
+#: framework/redux-framework/ReduxCore/inc/debug.php:69
+#: framework/redux-framework/ReduxCore/inc/debug.php:76
+#: framework/redux-framework/ReduxCore/inc/debug.php:77
+#@ redux-framework
+msgid "Options Object"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/debug.php:54
+#@ redux-framework
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/background/field_background.php:124
+#: framework/redux-framework/ReduxCore/inc/fields/color/field_color.php:72
+#: framework/redux-framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:79
+#: framework/redux-framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:91
+#: framework/redux-framework/ReduxCore/inc/fields/color_rgba/field_color_rgba.php:77
+#@ redux-framework
+msgid "Transparent"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/background/field_background.php:141
+#@ redux-framework
+msgid "Background Repeat"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/background/field_background.php:157
+#@ redux-framework
+msgid "Background Clip"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/background/field_background.php:173
+#@ redux-framework
+msgid "Background Origin"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/background/field_background.php:188
+#@ redux-framework
+msgid "Background Size"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/background/field_background.php:203
+#@ redux-framework
+msgid "Background Attachment"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/background/field_background.php:223
+#@ redux-framework
+msgid "Background Position"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/background/field_background.php:277
+#: framework/redux-framework/ReduxCore/inc/fields/media/field_media.php:149
+#@ redux-framework
+msgid "No media selected"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/background/field_background.php:314
+#: framework/redux-framework/ReduxCore/inc/fields/media/field_media.php:193
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:126
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:188
+#@ redux-framework
+msgid "Upload"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/border/field_border.php:114
+#: framework/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:191
+#@ redux-framework
+msgid "All"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/border/field_border.php:127
+#: framework/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:215
+#@ redux-framework
+msgid "Top"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/border/field_border.php:134
+#: framework/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:222
+#@ redux-framework
+msgid "Right"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/border/field_border.php:141
+#: framework/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:229
+#@ redux-framework
+msgid "Bottom"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/border/field_border.php:148
+#: framework/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:236
+#@ redux-framework
+msgid "Left"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/border/field_border.php:162
+#@ redux-framework
+msgid "Border style"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:68
+#@ redux-framework
+msgid "From "
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
+#@ redux-framework
+msgid "To "
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/dimensions/field_dimensions.php:161
+#@ redux-framework
+msgid "Width"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/dimensions/field_dimensions.php:177
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:436
+#@ redux-framework
+msgid "Height"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/dimensions/field_dimensions.php:188
+#: framework/redux-framework/ReduxCore/inc/fields/dimensions/field_dimensions.php:189
+#: framework/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:245
+#: framework/redux-framework/ReduxCore/inc/fields/spacing/field_spacing.php:246
+#@ redux-framework
+msgid "Units"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/gallery/field_gallery.php:73
+#: framework/redux-framework/sample/sample-config.php:313
+#@ redux-framework
+#@ redux-framework-demo
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/gallery/field_gallery.php:74
+#@ redux-framework
+msgid "Clear Gallery"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/link_color/field_link_color.php:87
+#@ redux-framework
+msgid "Regular"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/link_color/field_link_color.php:91
+#@ redux-framework
+msgid "Hover"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/link_color/field_link_color.php:95
+#@ redux-framework
+msgid "Visited"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/link_color/field_link_color.php:99
+#@ redux-framework
+msgid "Active"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/multi_text/field_multi_text.php:61
+#@ redux-framework
+msgid "Add More"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/password/field_password.php:63
+#: woocommerce/myaccount/form-login.php:77
+#@ redux-framework
+#@ woocommerce
+msgid "Username"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/select/field_select.php:82
+#: framework/redux-framework/ReduxCore/inc/fields/select_image/field_select_image.php:62
+#@ redux-framework
+msgid "Select an item"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/select/field_select.php:126
+#: framework/redux-framework/ReduxCore/inc/fields/select_image/field_select_image.php:143
+#@ redux-framework
+msgid "No items of this type were found."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:68
+#@ redux-framework
+msgid "Slide"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:73
+#, php-format
+#@ redux-framework
+msgid "New %s"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:223
+#, php-format
+#@ redux-framework
+msgid "Add %s"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/switch/field_switch.php:41
+#@ redux-framework
+msgid "On"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/switch/field_switch.php:44
+#@ redux-framework
+msgid "Off"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:227
+#@ redux-framework
+msgid "Font Family"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:228
+#@ redux-framework
+msgid "Font family"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:254
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:255
+#@ redux-framework
+msgid "Backup Font Family"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:269
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:276
+#@ redux-framework
+msgid "Font style"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:270
+#@ redux-framework
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:316
+#@ redux-framework
+msgid "Font subsets"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:318
+#@ redux-framework
+msgid "Font Subsets"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:319
+#@ redux-framework
+msgid "Subsets"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:319
+#@ redux-framework
+msgid "Font script"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:336
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:337
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:338
+#@ redux-framework
+msgid "Text Align"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:359
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:360
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:361
+#@ redux-framework
+msgid "Text Transform"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:382
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:383
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:384
+#@ redux-framework
+msgid "Font Variant"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:402
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:403
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:404
+#@ redux-framework
+msgid "Text Decoration"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:426
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:427
+#@ redux-framework
+msgid "Font Size"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:427
+#@ redux-framework
+msgid "Size"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:435
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:436
+#@ redux-framework
+msgid "Line Height"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:444
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:445
+#@ redux-framework
+msgid "Word Spacing"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:453
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:454
+#@ redux-framework
+msgid "Letter Spacing"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:472
+#@ redux-framework
+msgid "Font Color"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:474
+#@ redux-framework
+msgid "Font color"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:851
+#@ redux-framework
+msgid "Standard Fonts"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/fields/typography/field_typography.php:952
+#@ redux-framework
+msgid "Google Webfonts"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/import_export.php:78
+#@ redux-framework
+msgid "Import / Export Options"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/import_export.php:81
+#@ redux-framework
+msgid "Import Options"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/import_export.php:82
+#@ redux-framework
+msgid "Import from file"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/import_export.php:82
+#@ redux-framework
+msgid "Import from URL"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/import_export.php:85
+#@ redux-framework
+msgid "Input your backup file below and hit Import to restore your sites options from a backup."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/import_export.php:90
+#@ redux-framework
+msgid "Input the URL to another sites options set and hit Import to load the options from that site."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/import_export.php:94
+#@ redux-framework
+msgid "Import"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/import_export.php:94
+#@ redux-framework
+msgid "WARNING! This will overwrite all existing option values, please proceed with caution!"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/import_export.php:97
+#@ redux-framework
+msgid "Export Options"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/import_export.php:100
+#@ redux-framework
+msgid "Here you can copy/download your current option settings. Keep this safe as you can use it as a backup should anything go wrong, or you can use it to restore your settings on this site (or any other site)."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/import_export.php:104
+#@ redux-framework
+msgid "Copy"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/import_export.php:104
+#@ redux-framework
+msgid "Copy Link"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:129
+#@ redux-framework
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:130
+#@ redux-framework
+msgid "Please helps us improve our panel by allowing us to gather anonymous usage stats so we know which configurations, plugins and themes to test to ensure compatibility."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:135
+#@ redux-framework
+msgid "Allow tracking"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:140
+#@ redux-framework
+msgid "Do not allow tracking"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:151
+#@ redux-framework
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:152
+#: framework/redux-framework/ReduxCore/inc/welcome.php:139
+#@ redux-framework
+msgid "Getting Started"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:152
+#, php-format
+#@ redux-framework
+msgid "This panel demonstrates the many features of Redux.  Before digging in, we suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:152
+#@ redux-framework
+msgid "our documentation"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:153
+#@ redux-framework
+msgid "Redux Generator"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:153
+#, php-format
+#@ redux-framework
+msgid "Want to get a head start? Use the %1$s. It will create a customized boilerplate theme or a standalone admin folder complete with all things Redux (with the help of Underscores and TGM). Save yourself a headache and try it today."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:154
+#@ redux-framework
+msgid "Redux Extensions"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:154
+#, php-format
+#@ redux-framework
+msgid "Did you know we have extensions, which greatly enhance the features of Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:154
+#@ redux-framework
+msgid "extensions directory"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:155
+#@ redux-framework
+msgid "Like Redux?"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:155
+#, php-format
+#@ redux-framework
+msgid "If so, please %1$s and consider making a %2$s to keep development of Redux moving forward."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:155
+#@ redux-framework
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:155
+#@ redux-framework
+msgid "donation"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:156
+#@ redux-framework
+msgid "Newsletter"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:156
+#@ redux-framework
+msgid "If you'd like to keep up to with all things Redux, please subscribe to our newsletter"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:157
+#: woocommerce/myaccount/form-edit-account.php:31
+#: woocommerce/myaccount/form-login.php:84
+#@ redux-framework
+#@ woocommerce
+msgid "Email address"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/tracking.php:157
+#@ redux-framework
+msgid "Subscribe"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:20
+#: framework/megamenu/template/editor.php:297
+#: framework/redux-framework/ReduxCore/inc/tracking.php:166
+#@ accessories
+#@ redux-framework
+msgid "Close"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/validation/color/validation_color.php:15
+#: framework/redux-framework/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:14
+#: framework/redux-framework/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:16
+#@ redux-framework
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:16
+#@ redux-framework
+msgid "You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/validation/date/validation_date.php:16
+#@ redux-framework
+msgid "This field must be a valid date."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/validation/email/validation_email.php:16
+#: framework/redux-framework/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:16
+#@ redux-framework
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/validation/no_html/validation_no_html.php:15
+#@ redux-framework
+msgid "You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:16
+#@ redux-framework
+msgid "You must not enter any special characters in this field, all special characters have been removed."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/validation/not_empty/validation_not_empty.php:16
+#@ redux-framework
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/validation/numeric/validation_numeric.php:16
+#: framework/redux-framework/ReduxCore/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+#@ redux-framework
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/validation/url/validation_url.php:16
+#@ redux-framework
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:40
+#@ redux-framework
+msgid "Welcome to Redux Framework"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:48
+#: framework/redux-framework/ReduxCore/inc/welcome.php:295
+#@ redux-framework
+msgid "Redux Framework Changelog"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:56
+#@ redux-framework
+msgid "Getting started with Redux Framework"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:64
+#@ redux-framework
+msgid "The people that develop Redux Framework"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:135
+#@ redux-framework
+msgid "What's New"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:143
+#@ redux-framework
+msgid "Changelog"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:147
+#@ redux-framework
+msgid "Credits"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:164
+#: framework/redux-framework/ReduxCore/inc/welcome.php:333
+#: framework/redux-framework/ReduxCore/inc/welcome.php:471
+#, php-format
+#@ redux-framework
+msgid "Welcome to Redux Framework %s"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:167
+#, php-format
+#@ redux-framework
+msgid "Thank you for updating to the latest version! Redux Framework %s is ready to <add description>"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:174
+#@ redux-framework
+msgid "Some Feature"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:178
+#: framework/redux-framework/ReduxCore/inc/welcome.php:182
+#: framework/redux-framework/ReduxCore/inc/welcome.php:195
+#: framework/redux-framework/ReduxCore/inc/welcome.php:199
+#: framework/redux-framework/ReduxCore/inc/welcome.php:203
+#: framework/redux-framework/ReduxCore/inc/welcome.php:208
+#: framework/redux-framework/ReduxCore/inc/welcome.php:221
+#: framework/redux-framework/ReduxCore/inc/welcome.php:225
+#: framework/redux-framework/ReduxCore/inc/welcome.php:230
+#@ redux-framework
+msgid "Feature"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:190
+#@ redux-framework
+msgid "Some feature"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:217
+#@ redux-framework
+msgid "More Features"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:223
+#: framework/redux-framework/ReduxCore/inc/welcome.php:227
+#: framework/redux-framework/ReduxCore/inc/welcome.php:232
+#@ redux-framework
+msgid "description"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:238
+#@ redux-framework
+msgid "Additional Updates"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:242
+#: framework/redux-framework/ReduxCore/inc/welcome.php:246
+#: framework/redux-framework/ReduxCore/inc/welcome.php:252
+#: framework/redux-framework/ReduxCore/inc/welcome.php:256
+#: framework/redux-framework/ReduxCore/inc/welcome.php:262
+#: framework/redux-framework/ReduxCore/inc/welcome.php:266
+#@ redux-framework
+msgid "Cool thing"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:244
+#: framework/redux-framework/ReduxCore/inc/welcome.php:248
+#: framework/redux-framework/ReduxCore/inc/welcome.php:254
+#: framework/redux-framework/ReduxCore/inc/welcome.php:258
+#: framework/redux-framework/ReduxCore/inc/welcome.php:264
+#: framework/redux-framework/ReduxCore/inc/welcome.php:268
+#@ redux-framework
+msgid "cool thing description."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:277
+#: framework/redux-framework/ReduxCore/inc/welcome.php:316
+#@ redux-framework
+msgid "Go to Redux Framework"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:278
+#@ redux-framework
+msgid "View the Full Changelog"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:298
+#: framework/redux-framework/ReduxCore/inc/welcome.php:336
+#: framework/redux-framework/ReduxCore/inc/welcome.php:474
+#, php-format
+#@ redux-framework
+msgid "Thank you for updating to the latest version! Redux Framework %s is ready to make your <description>"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:305
+#@ redux-framework
+msgid "Full Changelog"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:342
+#@ redux-framework
+msgid "Use the tips below to get started using Redux Framework. You'll be up and running in no time!"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:345
+#@ redux-framework
+msgid "Creating Your First Panel"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:350
+#, php-format
+#@ redux-framework
+msgid "<a href=\"%s\">%s &rarr; Add New</a>"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:352
+#, php-format
+#@ redux-framework
+msgid "The %s menu is your access point for all aspects of your Easy Digital Downloads product creation and setup. To create your first product, simply click Add New and then fill out the product details."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:354
+#@ redux-framework
+msgid "Product Price"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:356
+#@ redux-framework
+msgid "Products can have simple prices or variable prices if you wish to have more than one price point for a product. For a single price, simply enter the price. For multiple price points, click <em>Enable variable pricing</em> and enter the options."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:358
+#@ redux-framework
+msgid "Download Files"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:360
+#@ redux-framework
+msgid "Uploading the downloadable files is simple. Click <em>Upload File</em> in the Download Files section and choose your download file. To add more than one file, simply click the <em>Add New</em> button."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:366
+#@ redux-framework
+msgid "Display a Product Grid"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:373
+#@ redux-framework
+msgid "Flexible Product Grids"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:375
+#@ redux-framework
+msgid "The [downloads] shortcode will display a product grid that works with any theme, no matter the size. It is even responsive!"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:377
+#@ redux-framework
+msgid "Change the Number of Columns"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:379
+#@ redux-framework
+msgid "You can easily change the number of columns by adding the columns=\"x\" parameter:"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:385
+#@ redux-framework
+msgid "Additional Display Options"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:387
+#, php-format
+#@ redux-framework
+msgid "The product grids can be customized in any way you wish and there is <a href=\"%s\">extensive documentation</a> to assist you."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:392
+#@ redux-framework
+msgid "Purchase Buttons Anywhere"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:397
+#@ redux-framework
+msgid "The <em>[purchase_link]</em> Shortcode"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:399
+#@ redux-framework
+msgid "With easily accessible shortcodes to display purchase buttons, you can add a Buy Now or Add to Cart button for any product anywhere on your site in seconds."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:401
+#@ redux-framework
+msgid "Buy Now Buttons"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:403
+#@ redux-framework
+msgid "Purchase buttons can behave as either Add to Cart or Buy Now buttons. With Buy Now buttons customers are taken straight to PayPal, giving them the most frictionless purchasing experience possible."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:409
+#@ redux-framework
+msgid "Need Help?"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:413
+#@ redux-framework
+msgid "Phenomenal Support"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:415
+#@ redux-framework
+msgid "We do our best to provide the best support we can. If you encounter a problem or have a question, post a question in the <a href=\"https://easydigitaldownloads.com/support\">support forums</a>."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:417
+#@ redux-framework
+msgid "Need Even Faster Support?"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:419
+#@ redux-framework
+msgid "Our <a href=\"https://easydigitaldownloads.com/support/pricing/\">Priority Support forums</a> are there for customers that need faster and/or more in-depth assistance."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:425
+#@ redux-framework
+msgid "Stay Up to Date"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:429
+#@ redux-framework
+msgid "Get Notified of Extension Releases"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:431
+#@ redux-framework
+msgid "New extensions that make Easy Digital Downloads even more powerful are released nearly every single week. Subscribe to the newsletter to stay up to date with our latest releases. <a href=\"http://eepurl.com/kaerz\" target=\"_blank\">Signup now</a> to ensure you do not miss a release!"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:433
+#@ redux-framework
+msgid "Get Alerted About New Tutorials"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:435
+#@ redux-framework
+msgid "<a href=\"http://eepurl.com/kaerz\" target=\"_blank\">Signup now</a> to hear about the latest tutorial releases that explain how to take Easy Digital Downloads further."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:441
+#@ redux-framework
+msgid "Extensions for Everything"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:445
+#@ redux-framework
+msgid "Over 250 Extensions"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:447
+#@ redux-framework
+msgid "Add-on plugins are available that greatly extend the default functionality of Easy Digital Downloads. There are extensions for payment processors, such as Stripe and PayPal, extensions for newsletter integrations, and many, many more."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:449
+#@ redux-framework
+msgid "Visit the Extension Store"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:480
+#@ redux-framework
+msgid "Redux Framework is created by a worldwide team of developers who <something witty here>"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:500
+#@ redux-framework
+msgid "No valid changlog was found."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:539
+#, php-format
+#@ redux-framework
+msgid "View %s"
+msgstr ""
+
+#: framework/redux-framework/class.redux-plugin.php:306
+#@ redux-framework
+msgid "Redux Framework has an embedded demo."
+msgstr ""
+
+#: framework/redux-framework/class.redux-plugin.php:306
+#@ redux-framework
+msgid "Click here to activate the sample config file."
+msgstr ""
+
+#: framework/redux-framework/class.redux-plugin.php:407
+#@ redux-framework
+msgid "Repo"
+msgstr ""
+
+#: framework/redux-framework/class.redux-plugin.php:408
+#@ redux-framework
+msgid "Generator"
+msgstr ""
+
+#: framework/redux-framework/class.redux-plugin.php:409
+#@ redux-framework
+msgid "Issues"
+msgstr ""
+
+#: framework/redux-framework/class.redux-plugin.php:415
+#@ redux-framework
+msgid "Deactivate Demo Mode"
+msgstr ""
+
+#: framework/redux-framework/class.redux-plugin.php:417
+#@ redux-framework
+msgid "Activate Demo Mode"
+msgstr ""
+
+#: framework/redux-framework/sample/barebones-config.php:55
+#: framework/redux-framework/sample/sample-config.php:239
+#@ redux-framework-demo
+msgid "Home Settings"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:240
+#@ redux-framework-demo
+msgid "Redux Framework was created with the developer in mind. It allows for any theme developer to have an advanced theme panel with most of the features a developer would need. For more information check out the Github repo at: <a href=\"https://github.com/ReduxFramework/Redux-Framework\">https://github.com/ReduxFramework/Redux-Framework</a>"
+msgstr ""
+
+#: framework/redux-framework/sample/barebones-config.php:64
+#: framework/redux-framework/sample/sample-config.php:248
+#@ redux-framework-demo
+msgid "Web Fonts"
+msgstr ""
+
+#: framework/redux-framework/sample/barebones-config.php:68
+#: framework/redux-framework/sample/sample-config.php:252
+#: framework/redux-framework/sample/sample-config.php:281
+#@ redux-framework-demo
+msgid "Basic media uploader with disabled URL input field."
+msgstr ""
+
+#: framework/redux-framework/sample/barebones-config.php:69
+#: framework/redux-framework/sample/sample-config.php:253
+#: framework/redux-framework/sample/sample-config.php:282
+#: framework/redux-framework/sample/sample-config.php:300
+#: framework/redux-framework/sample/sample-config.php:308
+#@ redux-framework-demo
+msgid "Upload any media using the WordPress native uploader"
+msgstr ""
+
+#: framework/redux-framework/sample/barebones-config.php:118
+#: framework/redux-framework/sample/barebones-config.php:119
+#: framework/redux-framework/sample/sample-config.php:1612
+#: framework/redux-framework/sample/sample-config.php:1613
+#@ redux-framework-demo
+msgid "Sample Options"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:269
+#@ redux-framework-demo
+msgid "Media Options"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:278
+#@ redux-framework-demo
+msgid "Media w/ URL"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:298
+#@ redux-framework-demo
+msgid "Media w/o URL"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:299
+#: framework/redux-framework/sample/sample-config.php:307
+#@ redux-framework-demo
+msgid "This represents the minimalistic view. It does not have the preview box or the display URL in an input box. "
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:306
+#@ redux-framework-demo
+msgid "Media No Preview"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:314
+#@ redux-framework-demo
+msgid "Create a new Gallery by selecting existing or uploading new images using the WordPress native uploader"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:315
+#: framework/redux-framework/sample/sample-config.php:702
+#: framework/redux-framework/sample/sample-config.php:713
+#: framework/redux-framework/sample/sample-config.php:731
+#: framework/redux-framework/sample/sample-config.php:829
+#: framework/redux-framework/sample/sample-config.php:843
+#: framework/redux-framework/sample/sample-config.php:852
+#: framework/redux-framework/sample/sample-config.php:859
+#: framework/redux-framework/sample/sample-config.php:872
+#: framework/redux-framework/sample/sample-config.php:881
+#: framework/redux-framework/sample/sample-config.php:890
+#: framework/redux-framework/sample/sample-config.php:912
+#: framework/redux-framework/sample/sample-config.php:925
+#: framework/redux-framework/sample/sample-config.php:934
+#: framework/redux-framework/sample/sample-config.php:949
+#: framework/redux-framework/sample/sample-config.php:958
+#: framework/redux-framework/sample/sample-config.php:967
+#: framework/redux-framework/sample/sample-config.php:977
+#: framework/redux-framework/sample/sample-config.php:993
+#: framework/redux-framework/sample/sample-config.php:1001
+#: framework/redux-framework/sample/sample-config.php:1020
+#: framework/redux-framework/sample/sample-config.php:1028
+#: framework/redux-framework/sample/sample-config.php:1036
+#: framework/redux-framework/sample/sample-config.php:1050
+#: framework/redux-framework/sample/sample-config.php:1058
+#: framework/redux-framework/sample/sample-config.php:1108
+#: framework/redux-framework/sample/sample-config.php:1121
+#: framework/redux-framework/sample/sample-config.php:1141
+#: framework/redux-framework/sample/sample-config.php:1156
+#: framework/redux-framework/sample/sample-config.php:1189
+#: framework/redux-framework/sample/sample-config.php:1198
+#: framework/redux-framework/sample/sample-config.php:1206
+#: framework/redux-framework/sample/sample-config.php:1215
+#: framework/redux-framework/sample/sample-config.php:1223
+#: framework/redux-framework/sample/sample-config.php:1232
+#: framework/redux-framework/sample/sample-config.php:1240
+#: framework/redux-framework/sample/sample-config.php:1249
+#: framework/redux-framework/sample/sample-config.php:1257
+#: framework/redux-framework/sample/sample-config.php:1266
+#: framework/redux-framework/sample/sample-config.php:1276
+#: framework/redux-framework/sample/sample-config.php:1284
+#: framework/redux-framework/sample/sample-config.php:1293
+#: framework/redux-framework/sample/sample-config.php:1301
+#: framework/redux-framework/sample/sample-config.php:1310
+#: framework/redux-framework/sample/sample-config.php:1360
+#: framework/redux-framework/sample/sample-config.php:1371
+#: framework/redux-framework/sample/sample-config.php:1385
+#@ redux-framework-demo
+msgid "This is the description field, again good for additional info."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:320
+#@ redux-framework-demo
+msgid "Slider Example 1"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:321
+#@ redux-framework-demo
+msgid "This slider displays the value as a label."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:322
+#@ redux-framework-demo
+msgid "Slider description. Min: 1, max: 500, step: 1, default value: 250"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:332
+#@ redux-framework-demo
+msgid "Slider Example 2 with Steps (5)"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:333
+#@ redux-framework-demo
+msgid "This example displays the value in a text box"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:334
+#@ redux-framework-demo
+msgid "Slider description. Min: 0, max: 300, step: 5, default value: 75"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:344
+#@ redux-framework-demo
+msgid "Slider Example 3 with two sliders"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:345
+#@ redux-framework-demo
+msgid "This example displays the values in select boxes"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:346
+#@ redux-framework-demo
+msgid "Slider description. Min: 0, max: 500, step: 5, slider 1 default value: 100, slider 2 default value: 300"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:360
+#@ redux-framework-demo
+msgid "Slider Example 4 with float values"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:361
+#@ redux-framework-demo
+msgid "This example displays float values"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:362
+#@ redux-framework-demo
+msgid "Slider description. Min: 0, max: 1, step: .1, default value: .5"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:373
+#@ redux-framework-demo
+msgid "JQuery UI Spinner Example 1"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:374
+#@ redux-framework-demo
+msgid "JQuery UI spinner description. Min:20, max: 100, step:20, default value: 40"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:383
+#@ redux-framework-demo
+msgid "Switch On"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:384
+#: framework/redux-framework/sample/sample-config.php:391
+#@ redux-framework-demo
+msgid "Look, it's on!"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:390
+#@ redux-framework-demo
+msgid "Switch Off"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:398
+#@ redux-framework-demo
+msgid "Switch - Nested Children, Enable to show"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:399
+#@ redux-framework-demo
+msgid "Look, it's on! Also hidden child elements!"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:408
+#@ redux-framework-demo
+msgid "Switch - This and the next switch required for patterns to show"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:409
+#: framework/redux-framework/sample/sample-config.php:418
+#@ redux-framework-demo
+msgid "Also called a \"fold\" parent."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:410
+#: framework/redux-framework/sample/sample-config.php:419
+#@ redux-framework-demo
+msgid "Items set with a fold to this ID will hide unless this is set to the appropriate value."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:417
+#@ redux-framework-demo
+msgid "Switch2 - Enable the above switch and this one for patterns to show"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:430
+#@ redux-framework-demo
+msgid "Images Option (with pattern=>true)"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:431
+#@ redux-framework-demo
+msgid "Select a background pattern."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:477
+#@ redux-framework-demo
+msgid "Slides Options"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:478
+#@ redux-framework-demo
+msgid "Unlimited slides with drag and drop sortings."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:479
+#@ redux-framework-demo
+msgid "This field will store all slides values into a multidimensional array to use into a foreach loop."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:481
+#@ redux-framework-demo
+msgid "This is a title"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:482
+#@ redux-framework-demo
+msgid "Description Here"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:483
+#@ redux-framework-demo
+msgid "Give us a link!"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:490
+#@ redux-framework-demo
+msgid "Preset"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:491
+#: framework/redux-framework/sample/sample-config.php:493
+#@ redux-framework-demo
+msgid "This allows you to set a json string or array to override multiple preferences in your theme."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:514
+#@ redux-framework-demo
+msgid "Typography"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:536
+#@ redux-framework-demo
+msgid "Typography option with each property can be called individually."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:561
+#@ redux-framework-demo
+msgid "Main Layout"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:595
+#@ redux-framework-demo
+msgid "Tracking Code"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:596
+#@ redux-framework-demo
+msgid "Paste your Google Analytics (or other) tracking code here. This will be added into the footer template of your theme."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:635
+#@ redux-framework-demo
+msgid "Footer Text"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:657
+#@ redux-framework-demo
+msgid "Theme Stylesheet"
+msgstr ""
+
+#: framework/admin/options.php:359
+#: framework/redux-framework/sample/sample-config.php:658
+#@ redux-framework-demo
+msgid "Select your themes alternative color scheme."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:666
+#@ redux-framework-demo
+msgid "Body Background Color"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:667
+#@ redux-framework-demo
+msgid "Pick a background color for the theme (default: #fff)."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:675
+#@ redux-framework-demo
+msgid "Body Background"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:676
+#@ redux-framework-demo
+msgid "Body background with image, color, etc."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:682
+#@ redux-framework-demo
+msgid "Footer Background Color"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:683
+#@ redux-framework-demo
+msgid "Pick a background color for the footer (default: #dd9933)."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:690
+#@ redux-framework-demo
+msgid "Color RGBA - BETA"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:691
+#@ redux-framework-demo
+msgid "Gives you the RGBA color. Still quite experimental. Use at your own risk."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:700
+#@ redux-framework-demo
+msgid "Header Gradient Color Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:701
+#: framework/redux-framework/sample/sample-config.php:712
+#: framework/redux-framework/sample/sample-config.php:728
+#@ redux-framework-demo
+msgid "Only color validation can be done on this field type"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:711
+#@ redux-framework-demo
+msgid "Links Color Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:727
+#@ redux-framework-demo
+msgid "Header Border Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:757
+#@ redux-framework-demo
+msgid "Padding/Margin Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:758
+#@ redux-framework-demo
+msgid "Allow your users to choose the spacing or margin they want."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:759
+#@ redux-framework-demo
+msgid "You can enable or disable any piece of this field. Top, Right, Bottom, Left, or Units."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:772
+#@ redux-framework-demo
+msgid "Dimensions (Width/Height) Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:773
+#@ redux-framework-demo
+msgid "Allow your users to choose width, height, and/or unit."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:774
+#@ redux-framework-demo
+msgid "You can enable or disable any piece of this field. Width, Height, or Units."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:783
+#@ redux-framework-demo
+msgid "Body Font"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:784
+#@ redux-framework-demo
+msgid "Specify the body font properties."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:796
+#@ redux-framework-demo
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:797
+#@ redux-framework-demo
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:798
+#@ redux-framework-demo
+msgid "This field is even CSS validated!"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:804
+#@ redux-framework-demo
+msgid "Custom HTML"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:805
+#@ redux-framework-demo
+msgid "Just like a text box widget."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:806
+#@ redux-framework-demo
+msgid "This field is even HTML validated!"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:820
+#@ redux-framework-demo
+msgid "Field Validation"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:821
+#@ redux-framework-demo
+msgid "Validate ALL fields within Redux."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:822
+#@ redux-framework-demo
+msgid "<p class=\"description\">This is the Description. Again HTML is allowed2</p>"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:827
+#@ redux-framework-demo
+msgid "Text Option - Email Validated"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:828
+#@ redux-framework-demo
+msgid "This is a little space under the Field Title in the Options table, additional info is good in here."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:841
+#@ redux-framework-demo
+msgid "Text Option with Data Attributes"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:842
+#@ redux-framework-demo
+msgid "You can also pass an options array if you want. Set the default to whatever you like."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:849
+#@ redux-framework-demo
+msgid "Multi Text Option - Color Validated"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:851
+#@ redux-framework-demo
+msgid "If you enter an invalid color it will be removed. Try using the text \"blue\" as a color.  ;)"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:857
+#@ redux-framework-demo
+msgid "Text Option - URL Validated"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:858
+#@ redux-framework-demo
+msgid "This must be a URL."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:870
+#@ redux-framework-demo
+msgid "Text Option - Numeric Validated"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:871
+#@ redux-framework-demo
+msgid "This must be numeric."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:879
+#@ redux-framework-demo
+msgid "Text Option - Comma Numeric Validated"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:880
+#@ redux-framework-demo
+msgid "This must be a comma separated string of numerical values."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:888
+#@ redux-framework-demo
+msgid "Text Option - No Special Chars Validated"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:889
+#@ redux-framework-demo
+msgid "This must be a alpha numeric only."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:897
+#@ redux-framework-demo
+msgid "Text Option - Str Replace Validated"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:898
+#: framework/redux-framework/sample/sample-config.php:911
+#: framework/redux-framework/sample/sample-config.php:924
+#: framework/redux-framework/sample/sample-config.php:933
+#@ redux-framework-demo
+msgid "You decide."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:899
+#@ redux-framework-demo
+msgid "This field's default value was changed by a filter hook!"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:910
+#@ redux-framework-demo
+msgid "Text Option - Preg Replace Validated"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:923
+#@ redux-framework-demo
+msgid "Text Option - Custom Callback Validated"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:947
+#@ redux-framework-demo
+msgid "Textarea Option - No HTML Validated"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:948
+#@ redux-framework-demo
+msgid "All HTML will be stripped"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:956
+#@ redux-framework-demo
+msgid "Textarea Option - HTML Validated"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:957
+#@ redux-framework-demo
+msgid "HTML Allowed (wp_kses)"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:965
+#@ redux-framework-demo
+msgid "Textarea Option - HTML Validated Custom"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:966
+#@ redux-framework-demo
+msgid "Custom HTML Allowed (wp_kses)"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:975
+#@ redux-framework-demo
+msgid "Textarea Option - JS Validated"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:976
+#@ redux-framework-demo
+msgid "JS will be escaped"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:985
+#@ redux-framework-demo
+msgid "Radio/Checkbox Fields"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:986
+#: framework/redux-framework/sample/sample-config.php:1134
+#: framework/redux-framework/sample/sample-config.php:1353
+#: framework/redux-framework/sample/sample-config.php:1554
+#@ redux-framework-demo
+msgid "<p class=\"description\">This is the Description. Again HTML is allowed</p>"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:991
+#@ redux-framework-demo
+msgid "Checkbox Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:999
+#@ redux-framework-demo
+msgid "Multi Checkbox Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1018
+#: framework/redux-framework/sample/sample-config.php:1048
+#@ redux-framework-demo
+msgid "Multi Checkbox Option (with menu data)"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1026
+#@ redux-framework-demo
+msgid "Multi Checkbox Option (with sidebar data)"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1034
+#@ redux-framework-demo
+msgid "Radio Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1056
+#@ redux-framework-demo
+msgid "Images Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1106
+#: framework/redux-framework/sample/sample-config.php:1119
+#@ redux-framework-demo
+msgid "Sortable Text Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1107
+#: framework/redux-framework/sample/sample-config.php:1120
+#@ redux-framework-demo
+msgid "Define and reorder these however you want."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1133
+#@ redux-framework-demo
+msgid "Select Fields"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1139
+#@ redux-framework-demo
+msgid "Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1154
+#@ redux-framework-demo
+msgid "Multi Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1169
+#@ redux-framework-demo
+msgid "Select Image"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1170
+#@ redux-framework-demo
+msgid "A preview of the selected image will appear underneath the select box."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1181
+#@ redux-framework-demo
+msgid "You can easily add a variety of data from WordPress."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1187
+#@ redux-framework-demo
+msgid "Categories Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1196
+#@ redux-framework-demo
+msgid "Categories Multi Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1204
+#@ redux-framework-demo
+msgid "Pages Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1213
+#@ redux-framework-demo
+msgid "Pages Multi Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1221
+#@ redux-framework-demo
+msgid "Tags Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1230
+#@ redux-framework-demo
+msgid "Tags Multi Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1238
+#@ redux-framework-demo
+msgid "Menus Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1247
+#@ redux-framework-demo
+msgid "Menus Multi Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1255
+#@ redux-framework-demo
+msgid "Post Type Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1264
+#@ redux-framework-demo
+msgid "Post Type Multi Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1274
+#@ redux-framework-demo
+msgid "Post Type Multi Select Option + Sortable"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1275
+#@ redux-framework-demo
+msgid "This field also has sortable enabled!"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1282
+#@ redux-framework-demo
+msgid "Posts Select Option2"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1291
+#@ redux-framework-demo
+msgid "Posts Multi Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1299
+#@ redux-framework-demo
+msgid "User Role Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1308
+#@ redux-framework-demo
+msgid "Capabilities Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1316
+#@ redux-framework-demo
+msgid "Elusive Icons Select Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1318
+#@ redux-framework-demo
+msgid "Here's a list of all the elusive icons by name and icon."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1324
+#@ redux-framework-demo
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1325
+#@ redux-framework-demo
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1326
+#@ redux-framework-demo
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1330
+#@ redux-framework-demo
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1352
+#@ redux-framework-demo
+msgid "Additional Fields"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1358
+#@ redux-framework-demo
+msgid "Date Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1369
+#@ redux-framework-demo
+msgid "Button Set Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1383
+#@ redux-framework-demo
+msgid "Button Set, Multi Select"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1398
+#@ redux-framework-demo
+msgid "This is the info field, if you want to break sections up."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1404
+#: framework/redux-framework/sample/sample-config.php:1412
+#: framework/redux-framework/sample/sample-config.php:1420
+#: framework/redux-framework/sample/sample-config.php:1434
+#: framework/redux-framework/sample/sample-config.php:1442
+#: framework/redux-framework/sample/sample-config.php:1451
+#: framework/redux-framework/sample/sample-config.php:1460
+#: framework/redux-framework/sample/sample-config.php:1469
+#@ redux-framework-demo
+msgid "This is a title."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1405
+#@ redux-framework-demo
+msgid "This is an info field with the warning style applied and a header."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1413
+#@ redux-framework-demo
+msgid "This is an info field with the success style applied, a header and an icon."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1421
+#@ redux-framework-demo
+msgid "This is an info field with the critical style applied, a header and an icon."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1435
+#@ redux-framework-demo
+msgid "This is an info notice field with the normal style applied, a header and an icon."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1443
+#@ redux-framework-demo
+msgid "This is an info notice field with the info style applied, a header and an icon."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1452
+#@ redux-framework-demo
+msgid "This is an info notice field with the warning style applied, a header and an icon."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1461
+#@ redux-framework-demo
+msgid "This is an info notice field with the success style applied, a header and an icon."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1470
+#@ redux-framework-demo
+msgid "This is an notice field with the critical style applied, a header and an icon."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1475
+#@ redux-framework-demo
+msgid "Custom Field Callback"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1476
+#: framework/redux-framework/sample/sample-config.php:1484
+#@ redux-framework-demo
+msgid "This is a completely unique field type"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1477
+#: framework/redux-framework/sample/sample-config.php:1485
+#@ redux-framework-demo
+msgid "This is created with a callback function, so anything goes in this field. Make sure to define the function though."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1493
+#: framework/redux-framework/sample/sample-config.php:1517
+#@ redux-framework-demo
+msgid "Customizer Only Option"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1494
+#: framework/redux-framework/sample/sample-config.php:1518
+#@ redux-framework-demo
+msgid "The subtitle is NOT visible in customizer"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1495
+#: framework/redux-framework/sample/sample-config.php:1519
+#@ redux-framework-demo
+msgid "The field desc is NOT visible in customizer."
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1510
+#@ redux-framework-demo
+msgid "Customizer Only"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1511
+#@ redux-framework-demo
+msgid "<p class=\"description\">This Section should be visible only in Customizer</p>"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1553
+#@ redux-framework-demo
+msgid "Theme Information"
+msgstr ""
+
+#: templates/blog/blog-widget.php:14
+#@ accessories
+msgid " View(s)"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:261
+#: framework/woocommerce/woocommerce.php:301
+#: woocommerce/cart/mini-cart.php:58
+#@ woocommerce
+msgid "No products in the cart."
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:309
+#: woocommerce/cart/mini-cart.php:66
+#@ woocommerce
+msgid "Subtotal"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:314
+#: woocommerce/cart/mini-cart.php:71
+#@ woocommerce
+msgid "View Cart"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:315
+#: woocommerce/cart/mini-cart.php:72
+#@ woocommerce
+msgid "Checkout"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:527
+#@ gp_lang
+msgid "Placeholder"
+msgstr ""
+
+#: templates/blog/blog-mini.php:17
+#: templates/blog/blog.php:18
+#@ accessories
+msgid "Read More"
+msgstr ""
+
+#: templates/list_comments.php:28
+#@ accessories
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/none.php:3
+#@ accessories
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/none.php:8
+#, php-format
+#@ accessories
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: templates/none.php:12
+#@ accessories
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr ""
+
+#: templates/none.php:17
+#@ accessories
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: templates/single/meta.php:10
+#@ accessories
+msgid " 0 comment"
+msgstr ""
+
+#: templates/single/meta.php:10
+#@ accessories
+msgid " 1 comment"
+msgstr ""
+
+#: templates/single/meta.php:10
+#@ accessories
+msgid " % comments"
+msgstr "% Bình Luận"
+
+#: templates/single/related.php:24
+#@ accessories
+msgid "Related post"
+msgstr ""
+
+#: vc_templates/vc_accordion_tab.php:6
+#@ js_composer
+msgid "Section"
+msgstr ""
+
+#: vc_templates/vc_button.php:10
+#@ js_composer
+msgid "Text on the button"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:16
+#@ woocommerce
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:20
+#@ woocommerce
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:16
+#, php-format
+#@ woocommerce
+msgid "Shipping #%d"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:18
+#@ woocommerce
+msgid "Shipping and Handling"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:55
+#@ woocommerce
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:59
+#@ woocommerce
+msgid "Please continue to the checkout and enter your full address to see if there are any available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:63
+#@ woocommerce
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:73
+#: woocommerce/cart/cart-shipping.php:81
+#, php-format
+#@ woocommerce
+msgid "Sorry, shipping is unavailable %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:73
+#: woocommerce/cart/cart-shipping.php:81
+#@ woocommerce
+msgid "If you require assistance or wish to make alternate arrangements please contact us."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:97
+#@ woocommerce
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:16
+#@ woocommerce
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:21
+#: woocommerce/checkout/review-order.php:25
+#@ woocommerce
+msgid "Cart Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:75
+#: woocommerce/checkout/review-order.php:79
+#@ woocommerce
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:87
+#, php-format
+#@ woocommerce
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:90
+#, php-format
+#@ woocommerce
+msgid "Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:27
+#: woocommerce/checkout/review-order.php:18
+#: woocommerce/order/order-details.php:18
+#@ woocommerce
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:28
+#: woocommerce/widgets/widget-products.php:51
+#@ woocommerce
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29
+#@ woocommerce
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30
+#: woocommerce/checkout/review-order.php:19
+#: woocommerce/myaccount/my-orders.php:36
+#: woocommerce/order/order-details.php:19
+#@ woocommerce
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:47
+#@ woocommerce
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:74
+#@ woocommerce
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:118
+#: woocommerce/checkout/form-coupon.php:23
+#@ woocommerce
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:119
+#: woocommerce/checkout/form-coupon.php:27
+#@ woocommerce
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:126
+#@ woocommerce
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:38
+#@ woocommerce
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:22
+#@ woocommerce
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:27
+#@ woocommerce
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:44
+#: woocommerce/cart/shipping-calculator.php:50
+#: woocommerce/cart/shipping-calculator.php:62
+#@ woocommerce
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:51
+#@ woocommerce
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:71
+#@ woocommerce
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:79
+#@ woocommerce
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:84
+#@ woocommerce
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:16
+#@ woocommerce
+msgid "There are some issues with the items in your cart (shown above). Please go back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:20
+#@ woocommerce
+msgid "Return To Cart"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:15
+#@ woocommerce
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:19
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/myaccount/form-edit-address.php:35
+#: woocommerce/myaccount/form-edit-address.php:104
+#: woocommerce/myaccount/my-address.php:17
+#: woocommerce/myaccount/my-address.php:23
+#: woocommerce/order/order-details.php:116
+#@ woocommerce
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:38
+#@ woocommerce
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:49
+#@ woocommerce
+msgid "Create an account by entering the information below. If you are a returning customer please login at the top of the page."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:20
+#@ woocommerce
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:44
+#@ woocommerce
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:16
+#@ woocommerce
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:16
+#@ woocommerce
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:14
+#@ woocommerce
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:15
+#@ woocommerce
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:22
+#@ woocommerce
+msgid "If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:31
+#@ woocommerce
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:58
+#: woocommerce/single-product/tabs/additional-information.php:14
+#@ woocommerce
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/global/form-login.php:24
+#: woocommerce/myaccount/form-lost-password.php:24
+#@ woocommerce
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:12
+#@ woocommerce
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:14
+#@ woocommerce
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: woocommerce/loop/result-count.php:28
+#@ woocommerce
+msgid "Showing the single result"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:30
+#, php-format
+#@ woocommerce
+msgid "Showing all %d results"
+msgstr ""
+
+#: woocommerce/single-product/sale-flash.php:16
+#@ woocommerce
+msgid "Sale"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:32
+#: woocommerce/myaccount/form-change-password.php:68
+#: woocommerce/myaccount/form-lost-password.php:31
+#@ woocommerce
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:36
+#: woocommerce/myaccount/form-change-password.php:72
+#: woocommerce/myaccount/form-lost-password.php:35
+#@ woocommerce
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:22
+#@ woocommerce
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:26
+#@ woocommerce
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:35
+#@ woocommerce
+msgid "Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:39
+#@ woocommerce
+msgid "Confirm new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:45
+#@ woocommerce
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/myaccount/form-edit-address.php:35
+#: woocommerce/myaccount/form-edit-address.php:104
+#: woocommerce/myaccount/my-address.php:18
+#: woocommerce/order/order-details.php:131
+#@ woocommerce
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:70
+#: woocommerce/myaccount/form-edit-address.php:120
+#@ woocommerce
+msgid "Save Address"
+msgstr ""
+
+#: templates/header/header-1.php:18
+#: templates/header/header-2.php:22
+#: woocommerce/myaccount/form-login.php:68
+#: woocommerce/myaccount/form-login.php:105
+#@ accessories
+#@ woocommerce
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:98
+#@ woocommerce
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:22
+#@ woocommerce
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:28
+#@ woocommerce
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:48
+#@ woocommerce
+msgid "Reset Password"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:32
+#@ woocommerce
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: framework/megamenu/template/editor.php:42
+#: templates/list_comments.php:21
+#@ accessories
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:60
+#@ woocommerce
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:20
+#: woocommerce/myaccount/my-downloads.php:45
+#@ woocommerce
+msgid "Available downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:29
+#: woocommerce/myaccount/my-downloads.php:54
+#, php-format
+#@ woocommerce
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/my-orders.php:27
+#: woocommerce/myaccount/my-orders.php:114
+#@ woocommerce
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:33
+#: woocommerce/myaccount/my-orders.php:121
+#@ woocommerce
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:34
+#: woocommerce/myaccount/my-orders.php:120
+#: woocommerce/widgets/widget-products.php:50
+#@ woocommerce
+msgid "Date"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:60
+#, php-format
+#@ woocommerce
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/checkout/thankyou.php:26
+#: woocommerce/myaccount/my-orders.php:69
+#: woocommerce/myaccount/my-orders.php:158
+#@ woocommerce
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:82
+#: woocommerce/myaccount/my-orders.php:174
+#@ woocommerce
+msgid "View"
+msgstr ""
+
+#: woocommerce/order/tracking.php:23
+#@ woocommerce
+msgid "Order Updates"
+msgstr ""
+
+#: woocommerce/order/tracking.php:29
+#@ woocommerce
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:17
+#@ woocommerce
+msgid "To track your order please enter your Order ID in the box below and press return. This was given to you on your receipt and in the confirmation email you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:19
+#@ woocommerce
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:19
+#@ woocommerce
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:20
+#@ woocommerce
+msgid "Billing Email"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:20
+#@ woocommerce
+msgid "Email you used during checkout."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:23
+#@ woocommerce
+msgid "Track"
+msgstr ""
+
+#: woocommerce/order/order-details.php:14
+#@ woocommerce
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:52
+#, php-format
+#@ woocommerce
+msgid "Download file%s"
+msgstr ""
+
+#: woocommerce/order/order-details.php:95
+#@ woocommerce
+msgid "Customer details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:99
+#@ woocommerce
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:100
+#@ woocommerce
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:120
+#: woocommerce/order/order-details.php:135
+#@ woocommerce
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/tracking.php:12
+#, php-format
+#@ woocommerce
+msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/order/tracking.php:12
+#@ woocommerce
+msgid "ago"
+msgstr ""
+
+#: woocommerce/order/tracking.php:14
+#@ woocommerce
+msgid "and was completed"
+msgstr ""
+
+#: templates/list_comments.php:20
+#: woocommerce/order/tracking.php:14
+#@ accessories
+#@ woocommerce
+msgid " ago"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:26
+#@ woocommerce
+msgid "Choose an option"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:77
+#@ woocommerce
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:103
+#@ woocommerce
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/meta.php:24
+#@ woocommerce
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:24
+#@ woocommerce
+msgid "n/a"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:28
+#@ woocommerce
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:30
+#@ woocommerce
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/product-attributes.php:28
+#@ woocommerce
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:35
+#@ woocommerce
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:27
+#, php-format
+#@ woocommerce
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:27
+#@ woocommerce
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:33
+#, php-format
+#@ woocommerce
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:54
+#@ woocommerce
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/review.php:26
+#, php-format
+#@ woocommerce
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:34
+#@ woocommerce
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review.php:43
+#@ woocommerce
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:14
+#@ woocommerce
+msgid "Product Description"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:57
+#@ woocommerce
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:47
+#@ woocommerce
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:60
+#@ woocommerce
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:60
+#@ woocommerce
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:61
+#, php-format
+#@ woocommerce
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:65
+#@ woocommerce
+msgid "Name"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:67
+#@ woocommerce
+msgid "Email"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:286
+#: woocommerce/single-product-reviews.php:70
+#@ wordpress-importer
+#@ woocommerce
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:76
+#@ woocommerce
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:77
+#@ woocommerce
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:78
+#@ woocommerce
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+#@ woocommerce
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:80
+#@ woocommerce
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:81
+#@ woocommerce
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+#@ woocommerce
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+#@ woocommerce
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:95
+#@ woocommerce
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:263
+#: woocommerce/widgets/widget-cart.php:24
+#@ accessories
+#@ woocommerce
+msgid "Cart"
+msgstr ""
+
+#: woocommerce/widgets/widget-layered-nav-filters.php:66
+#: woocommerce/widgets/widget-layered-nav-filters.php:73
+#: woocommerce/widgets/widget-layered-nav-filters.php:78
+#@ woocommerce
+msgid "Remove filter"
+msgstr ""
+
+#: woocommerce/widgets/widget-layered-nav-filters.php:73
+#@ woocommerce
+msgid "Min"
+msgstr ""
+
+#: woocommerce/widgets/widget-layered-nav-filters.php:78
+#@ woocommerce
+msgid "Max"
+msgstr ""
+
+#: woocommerce/widgets/widget-layered-nav.php:91
+#, php-format
+#@ woocommerce
+msgid "Any %s"
+msgstr ""
+
+#: woocommerce/widgets/widget-price-filter.php:143
+#@ woocommerce
+msgid "Min price"
+msgstr ""
+
+#: woocommerce/widgets/widget-price-filter.php:144
+#@ woocommerce
+msgid "Max price"
+msgstr ""
+
+#: woocommerce/widgets/widget-price-filter.php:146
+#@ woocommerce
+msgid "Price:"
+msgstr ""
+
+#: woocommerce/widgets/widget-price-filter.php:148
+#@ woocommerce
+msgid "Apply Filter"
+msgstr ""
+
+#: woocommerce/widgets/widget-product-categories.php:139
+#@ woocommerce
+msgid "No product categories exist."
+msgstr ""
+
+#: woocommerce/widgets/widget-recent-reviews.php:60
+#, php-format
+#@ woocommerce
+msgctxt "by comment author"
+msgid "by %1$s"
+msgstr ""
+
+#: 404.php:18
+#@ accessories
+msgid "Return to the previous page"
+msgstr ""
+
+#: comments.php:36
+#@ accessories
+msgid "Leave a Comment"
+msgstr ""
+
+#: framework/admin/options.php:243
+#@ redux-framework-demo
+msgid "Apple Touch Icon"
+msgstr ""
+
+#: framework/admin/options.php:246
+#: framework/admin/options.php:255
+#@ redux-framework-demo
+msgid "Upload your Apple touch icon 57x57."
+msgstr ""
+
+#: framework/admin/options.php:252
+#@ redux-framework-demo
+msgid "Apple Touch Icon 57x57"
+msgstr ""
+
+#: framework/admin/options.php:261
+#@ redux-framework-demo
+msgid "Apple Touch Icon 72x72"
+msgstr ""
+
+#: framework/admin/options.php:264
+#@ redux-framework-demo
+msgid "Upload your Apple touch icon 72x72."
+msgstr ""
+
+#: framework/admin/options.php:270
+#@ redux-framework-demo
+msgid "Apple Touch Icon 114x114"
+msgstr ""
+
+#: framework/admin/options.php:273
+#@ redux-framework-demo
+msgid "Upload your Apple touch icon 114x114."
+msgstr ""
+
+#: framework/admin/options.php:279
+#@ redux-framework-demo
+msgid "Apple Touch Icon 144x144"
+msgstr ""
+
+#: framework/admin/options.php:282
+#@ redux-framework-demo
+msgid "Upload your Apple touch icon 144x144."
+msgstr ""
+
+#: framework/admin/options.php:319
+#@ redux-framework-demo
+msgid "Layout Style"
+msgstr ""
+
+#: framework/admin/options.php:320
+#@ redux-framework-demo
+msgid "Choose Your Layout Style."
+msgstr ""
+
+#: framework/admin/options.php:331
+#@ redux-framework-demo
+msgid "Breadcrumb Background"
+msgstr ""
+
+#: framework/admin/options.php:337
+#@ redux-framework-demo
+msgid "Main Color"
+msgstr ""
+
+#: framework/admin/options.php:354
+#@ redux-framework-demo
+msgid "Main Color Custom"
+msgstr ""
+
+#: framework/admin/options.php:407
+#@ redux-framework-demo
+msgid "Enable Topbar"
+msgstr ""
+
+#: framework/admin/options.php:413
+#@ redux-framework-demo
+msgid "Enable Switch Languages"
+msgstr ""
+
+#: framework/admin/options.php:420
+#@ redux-framework-demo
+msgid "Enable Cart Header"
+msgstr ""
+
+#: framework/admin/options.php:426
+#@ redux-framework-demo
+msgid "Enable Search Header"
+msgstr ""
+
+#: framework/admin/options.php:479
+#@ redux-framework-demo
+msgid "Enable Footer Customize"
+msgstr ""
+
+#: framework/admin/options.php:486
+#@ redux-framework-demo
+msgid "Footer Item"
+msgstr ""
+
+#: framework/admin/options.php:493
+#@ redux-framework-demo
+msgid "Footer Copyright"
+msgstr ""
+
+#: framework/admin/options.php:545
+#@ redux-framework-demo
+msgid "Enable SEO options"
+msgstr ""
+
+#: framework/admin/options.php:574
+#@ redux-framework-demo
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: framework/admin/options.php:587
+#@ redux-framework-demo
+msgid "Effect Skin"
+msgstr ""
+
+#: framework/admin/options.php:605
+#@ redux-framework-demo
+msgid "Product Archives"
+msgstr ""
+
+#: framework/admin/options.php:652
+#@ redux-framework-demo
+msgid "Product Details"
+msgstr ""
+
+#: framework/framework.php:25
+#: framework/framework.php:141
+#: templates/breadcrumb.php:8
+#: templates/breadcrumb.php:14
+#@ accessories
+msgid "Home"
+msgstr ""
+
+#: framework/framework.php:83
+#@ accessories
+msgid "Search results for: \" "
+msgstr ""
+
+#: framework/framework.php:87
+#@ accessories
+msgid "404 - Page not Found"
+msgstr ""
+
+#: framework/framework.php:159
+#: product-searchform.php:5
+#: searchform.php:4
+#@ accessories
+#@ woocommerce
+msgid "Search"
+msgstr ""
+
+#: framework/framework.php:163
+#@ accessories
+msgid "Error 404 Page"
+msgstr ""
+
+#: framework/framework.php:168
+#@ accessories
+msgid "Daily Archives:"
+msgstr ""
+
+#: framework/framework.php:170
+#@ accessories
+msgid "Monthly Archives:"
+msgstr ""
+
+#: framework/framework.php:170
+#@ accessories
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: framework/framework.php:172
+#@ accessories
+msgid "Yearly Archives:"
+msgstr ""
+
+#: framework/framework.php:172
+#@ accessories
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: framework/front/function.php:288
+#@ accessories
+msgid "Shop Single Sidebar"
+msgstr ""
+
+#: framework/front/function.php:308
+#@ accessories
+msgid "Visual Composer Sidebar"
+msgstr ""
+
+#: framework/front/function.php:356
+#@ accessories
+msgid "Footer 5"
+msgstr ""
+
+#: framework/megamenu/includes/megamenu-base-front.php:134
+#: framework/megamenu/includes/megamenu-base.php:161
+#@ item
+msgid "beginnav"
+msgstr ""
+
+#: framework/megamenu/includes/megamenu-base-front.php:142
+#: framework/megamenu/includes/megamenu-base.php:169
+#@ item
+msgid "endnav"
+msgstr ""
+
+#: framework/megamenu/includes/megamenu-base-front.php:166
+#: framework/megamenu/includes/megamenu-base.php:193
+#@ item
+msgid "beginitem"
+msgstr ""
+
+#: framework/megamenu/includes/megamenu-base-front.php:168
+#: framework/megamenu/includes/megamenu-base.php:195
+#@ item
+msgid "item"
+msgstr ""
+
+#: framework/megamenu/includes/megamenu-base-front.php:173
+#: framework/megamenu/includes/megamenu-base.php:200
+#@ item
+msgid "enditem"
+msgstr ""
+
+#: framework/megamenu/includes/megamenu-base-front.php:208
+#: framework/megamenu/includes/megamenu-base.php:235
+#@ item
+msgid "beginmega"
+msgstr ""
+
+#: framework/megamenu/includes/megamenu-base-front.php:214
+#: framework/megamenu/includes/megamenu-base.php:241
+#@ default
+msgid "beginrow"
+msgstr ""
+
+#: framework/megamenu/includes/megamenu-base-front.php:219
+#: framework/megamenu/includes/megamenu-base-front.php:227
+#: framework/megamenu/includes/megamenu-base.php:246
+#: framework/megamenu/includes/megamenu-base.php:254
+#@ setting
+msgid "begincol"
+msgstr ""
+
+#: framework/megamenu/includes/megamenu-base-front.php:220
+#: framework/megamenu/includes/megamenu-base-front.php:232
+#: framework/megamenu/includes/megamenu-base.php:247
+#: framework/megamenu/includes/megamenu-base.php:259
+#@ default
+msgid "endcol"
+msgstr ""
+
+#: framework/megamenu/includes/megamenu-base-front.php:239
+#: framework/megamenu/includes/megamenu-base.php:266
+#@ default
+msgid "endrow"
+msgstr ""
+
+#: framework/megamenu/includes/megamenu-base-front.php:244
+#: framework/megamenu/includes/megamenu-base.php:271
+#@ default
+msgid "endmega"
+msgstr ""
+
+#: framework/megamenu/includes/megamenu-base-front.php:541
+#: framework/megamenu/includes/megamenu-base.php:586
+#@ default
+msgid "beginmenu"
+msgstr ""
+
+#: framework/megamenu/includes/megamenu-base-front.php:547
+#: framework/megamenu/includes/megamenu-base.php:592
+#@ default
+msgid "endmenu"
+msgstr ""
+
+#: framework/megamenu/megamenu.php:45
+#@ accessories
+msgid "Main Megamenu Editor"
+msgstr ""
+
+#: framework/megamenu/megamenu.php:273
+#@ accessories
+msgid "Widgets published"
+msgstr ""
+
+#: framework/megamenu/megamenu.php:277
+#@ accessories
+msgid "Widgets updated"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:7
+#@ accessories
+msgid "Megamenu configuration"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:12
+#@ accessories
+msgid "Megamenu"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:13
+#@ accessories
+msgid "Widget Manager"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:19
+#: framework/megamenu/template/editor.php:44
+#: framework/megamenu/template/editor.php:278
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:167
+#: framework/redux-framework/ReduxCore/inc/fields/slides/field_slides.php:220
+#@ accessories
+#@ redux-framework
+msgid "Delete"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:27
+#@ accessories
+msgid "Add Widget"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:31
+#@ accessories
+msgid "Wiget Name"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:33
+#@ accessories
+msgid "Action"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:44
+#@ accessories
+msgid "Are You Sure ?"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:56
+#@ accessories
+msgid "Megamenu Toolbox"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:57
+#@ accessories
+msgid "This toolbox includes all settings of megamenu, just select menu then configure. There are 3 level of configuration: sub-megamenu setting, column setting and menu item setting."
+msgstr ""
+
+#: framework/megamenu/template/editor.php:62
+#@ accessories
+msgid "Item Configuration"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:65
+#@ accessories
+msgid "Submenu"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:68
+#: framework/megamenu/template/editor.php:79
+#@ accessories
+msgid "No"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:70
+#: framework/megamenu/template/editor.php:81
+#@ accessories
+msgid "Yes"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:76
+#@ accessories
+msgid "Group"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:87
+#@ accessories
+msgid "Positions"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:96
+#: framework/megamenu/template/editor.php:167
+#: framework/megamenu/template/editor.php:233
+#@ accessories
+msgid "Extra Class"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:115
+#@ accessories
+msgid "Item caption"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:124
+#@ accessories
+msgid "Submenu Configuration"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:127
+#@ accessories
+msgid "Add row"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:135
+#: framework/megamenu/template/editor.php:188
+#@ accessories
+msgid "Hide when collapse"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:146
+#@ accessories
+msgid "Submenu Width (px)"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:154
+#@ accessories
+msgid "Alignment"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:176
+#@ accessories
+msgid "Column Configuration"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:179
+#@ accessories
+msgid "Add/remove Column"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:199
+#@ accessories
+msgid "Width (1-12)"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:220
+#@ accessories
+msgid "Widget"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:254
+#@ accessories
+msgid "Loading Menu..."
+msgstr ""
+
+#: framework/megamenu/template/editor.php:273
+#@ accessories
+msgid "Are you sure you want to delete configuration?"
+msgstr ""
+
+#: framework/megamenu/template/editor.php:289
+#@ megamenu
+msgid "Widget Management"
+msgstr ""
+
+#: framework/megamenu/widgets/image.php:33
+#@ accessories
+msgid "Link Image"
+msgstr ""
+
+#: framework/megamenu/widgets/products.php:30
+#@ accessories
+msgid "Widget Title"
+msgstr ""
+
+#: framework/metabox/meta-item.php:56
+#@ accessories
+msgid "Revolution Slider Top"
+msgstr ""
+
+#: framework/metabox/meta-item.php:99
+#@ accessories
+msgid "Blog Masonry column count"
+msgstr ""
+
+#: framework/metabox/meta-item.php:105
+#@ accessories
+msgid "Override Theme Options"
+msgstr ""
+
+#: framework/metabox/meta-item.php:130
+#@ accessories
+msgid "Footer Style"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:2106
+#@ redux-framework
+msgid "Enable"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:2111
+#@ redux-framework
+msgid "Disable"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:2117
+#@ redux-framework
+msgid "moving the mouse over"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:2119
+#@ redux-framework
+msgid "clicking"
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/framework.php:2123
+#, php-format
+#@ redux-framework
+msgid "Hints are tooltips that popup when %d the hint icon, offering addition information about the field in which they appear.  They can be %d d by using the link below."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/class.redux_themecheck.php:61
+#, php-format
+#@ redux-framework
+msgid "The theme you are testing has %s embedded. We invite you to read the %sTheme-Check Documentation%s to understand some warnings you will see because of Redux."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/class.redux_themecheck.php:109
+#@ redux-framework
+msgid "The following directories & files are still located in your <strong>Redux</strong>  directory. They may cause errors in Theme-Check."
+msgstr ""
+
+#: framework/redux-framework/ReduxCore/inc/welcome.php:451
+#@ redux-framework
+msgid "<a href=\"https://asydigitaldownloads.com/extensions\" target=\"_blank\">The Extensions store</a> has a list of all available extensions, including convenient category filters so you can find exactly what you are looking for."
+msgstr ""
+
+#: framework/redux-framework/sample/barebones-config.php:56
+#, php-format
+#@ redux-framework-demo
+msgid "Redux Framework was created with the developer in mind. It allows for any theme developer to have an advanced theme panel with most of the features a developer would need. For more information check out the Github repo at: %d"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:932
+#@ redux-framework-demo
+msgid "Text Option - Custom Callback Validated - Class"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1483
+#@ redux-framework-demo
+msgid "Custom Field Callback - Class"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1719
+#@ redux-framework-demo
+msgid "Support"
+msgstr ""
+
+#: framework/redux-framework/sample/sample-config.php:1725
+#@ redux-framework-demo
+msgid "Extensions"
+msgstr ""
+
+#: framework/samples/import.php:17
+#@ accessories
+msgid "Loading... this could take a couple of minutes, please wait until you get completion message"
+msgstr ""
+
+#: framework/samples/import.php:21
+#@ accessories
+msgid "Install Sample Demo"
+msgstr ""
+
+#: framework/samples/import.php:22
+#@ accessories
+msgid "Skip Install"
+msgstr ""
+
+#: framework/samples/wordpress-importer/parsers.php:42
+#: framework/samples/wordpress-importer/parsers.php:72
+#: framework/samples/wordpress-importer/parsers.php:80
+#@ wordpress-importer
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: framework/samples/wordpress-importer/parsers.php:43
+#@ wordpress-importer
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: framework/samples/wordpress-importer/parsers.php:84
+#: framework/samples/wordpress-importer/parsers.php:89
+#: framework/samples/wordpress-importer/parsers.php:279
+#: framework/samples/wordpress-importer/parsers.php:468
+#@ wordpress-importer
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:134
+#: framework/samples/wordpress-importer/wordpress-importer.php:143
+#: framework/samples/wordpress-importer/wordpress-importer.php:194
+#: framework/samples/wordpress-importer/wordpress-importer.php:198
+#: framework/samples/wordpress-importer/wordpress-importer.php:207
+#@ wordpress-importer
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:135
+#@ wordpress-importer
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:178
+#@ wordpress-importer
+msgid "All done."
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:178
+#@ wordpress-importer
+msgid "Have fun!"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:179
+#@ wordpress-importer
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:199
+#, php-format
+#@ wordpress-importer
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:215
+#, php-format
+#@ wordpress-importer
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:240
+#, php-format
+#@ wordpress-importer
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:266
+#@ wordpress-importer
+msgid "Assign Authors"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:267
+#@ wordpress-importer
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:269
+#, php-format
+#@ wordpress-importer
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:279
+#@ wordpress-importer
+msgid "Import Attachments"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:282
+#@ wordpress-importer
+msgid "Download and import file attachments"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:299
+#@ wordpress-importer
+msgid "Import author:"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:310
+#@ wordpress-importer
+msgid "or create new user with login name:"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:313
+#@ wordpress-importer
+msgid "as a new user:"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:321
+#@ wordpress-importer
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:323
+#@ wordpress-importer
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:324
+#@ wordpress-importer
+msgid "- Select -"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:374
+#, php-format
+#@ wordpress-importer
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:425
+#, php-format
+#@ wordpress-importer
+msgid "Failed to import category %s"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:465
+#, php-format
+#@ wordpress-importer
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:511
+#: framework/samples/wordpress-importer/wordpress-importer.php:652
+#, php-format
+#@ wordpress-importer
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:537
+#, php-format
+#@ wordpress-importer
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:559
+#, php-format
+#@ wordpress-importer
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:618
+#, php-format
+#@ wordpress-importer
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:783
+#@ wordpress-importer
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:790
+#, php-format
+#@ wordpress-importer
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:853
+#@ wordpress-importer
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:866
+#@ wordpress-importer
+msgid "Invalid file type"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:910
+#@ wordpress-importer
+msgid "Remote server did not respond"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:916
+#, php-format
+#@ wordpress-importer
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:923
+#@ wordpress-importer
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:928
+#@ wordpress-importer
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:934
+#, php-format
+#@ wordpress-importer
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:1032
+#@ wordpress-importer
+msgid "Import WordPress"
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:1039
+#, php-format
+#@ wordpress-importer
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:1054
+#@ wordpress-importer
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: framework/samples/wordpress-importer/wordpress-importer.php:1055
+#@ wordpress-importer
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:102
+#: framework/woocommerce/woocommerce.php:104
+#@ accessories
+msgid "Availability"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:104
+#@ woocommerce
+msgid "In stock"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:156
+#@ accessories
+msgid "Add to wishlist"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:162
+#@ accessories
+msgid "Add to compare"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:237
+#@ accessories
+msgid "Days"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:238
+#@ accessories
+msgid "Months"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:239
+#@ accessories
+msgid "Weeks"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:240
+#@ accessories
+msgid "Years"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:241
+#@ accessories
+msgid "Hours"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:242
+#@ accessories
+msgid "Minutes"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:243
+#@ accessories
+msgid "Seconds"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:244
+#@ accessories
+msgid "Day"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:245
+#@ accessories
+msgid "Month"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:246
+#@ accessories
+msgid "Week"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:247
+#@ accessories
+msgid "Year"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:248
+#@ accessories
+msgid "Hour"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:249
+#@ accessories
+msgid "Minute"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:250
+#@ accessories
+msgid "Second"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:373
+#: templates/header/header-1.php:62
+#: templates/header/header-2.php:66
+#@ accessories
+msgid "My Cart"
+msgstr ""
+
+#: framework/woocommerce/woocommerce.php:468
+#@ accessories
+msgid "ADDED"
+msgstr ""
+
+#: product-searchform.php:3
+#@ woocommerce
+msgid "Search for products"
+msgstr ""
+
+#: templates/blog/blog-masonry.php:24
+#: templates/blog/blog-skin1.php:26
+#: templates/blog/blog-skin2.php:20
+#@ accessories
+msgid "by"
+msgstr ""
+
+#: templates/blog/blog-masonry.php:27
+#: templates/blog/blog-skin1.php:29
+#: templates/blog/blog-skin2.php:23
+#@ accessories
+msgid "in"
+msgstr ""
+
+#: templates/blog/blog-visual.php:14
+#@ accessories
+msgid "Read more"
+msgstr ""
+
+#: templates/blog/blog.php:8
+#@ accessories
+msgid "Sticky"
+msgstr ""
+
+#: templates/header/header-1.php:30
+#: templates/header/header-2.php:34
+#@ accessories
+msgid "Language"
+msgstr ""
+
+#: templates/list_comments.php:22
+#@ accessories
+msgid "Reply"
+msgstr ""
+
+#: templates/single/meta.php:2
+#@ accessories
+msgid "By "
+msgstr ""
+
+#: templates/single/meta.php:3
+#@ accessories
+msgid "in "
+msgstr ""
+
+#: woocommerce/checkout/payment.php:30
+#@ woocommerce
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:32
+#@ woocommerce
+msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:43
+#@ woocommerce
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the <em>Update Totals</em> button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:43
+#@ woocommerce
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:53
+#, php-format
+#@ woocommerce
+msgid "I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; conditions</a>"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:16
+#@ woocommerce
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:20
+#@ woocommerce
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:22
+#@ woocommerce
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:28
+#: woocommerce/myaccount/form-edit-address.php:44
+#: woocommerce/myaccount/form-edit-address.php:87
+#@ woocommerce
+#@ swiftframework
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:34
+#: woocommerce/checkout/thankyou.php:65
+#@ woocommerce
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:38
+#@ woocommerce
+msgid "Order:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:42
+#@ woocommerce
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:46
+#@ woocommerce
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:51
+#@ woocommerce
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:32
+#, php-format
+#@ woocommerce
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "Showing %1$d-%2$d of %3$d results"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:18
+#@ woocommerce
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:26
+#: woocommerce/myaccount/form-change-password.php:63
+#@ swiftframework
+msgid "It is not possible to change the password for the demo account."
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:54
+#@ swiftframework
+msgid "Change password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:46
+#: woocommerce/myaccount/form-edit-address.php:89
+#@ swiftframework
+msgid "Back to my account"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:28
+#@ accessories
+msgid "My Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:31
+#: woocommerce/myaccount/my-account.php:35
+#@ accessories
+msgid "My Downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:39
+#@ accessories
+msgid "My Wishlist"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:41
+#: woocommerce/myaccount/my-address.php:15
+#: woocommerce/myaccount/my-address.php:21
+#@ accessories
+#@ swiftframework
+msgid "Address Book"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:43
+#: woocommerce/myaccount/my-account.php:45
+#@ accessories
+msgid "Change Password"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:47
+#@ accessories
+msgid "Logout"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:73
+#@ swiftframework
+msgid "Edit address"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:122
+#@ swiftframework
+msgid "Amount"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:124
+#@ swiftframework
+msgid "Details"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:191
+#@ swiftframework
+msgid "You haven't placed any orders yet."
+msgstr ""
+
+#: woocommerce/single-product/rating.php:29
+#, php-format
+#@ woocommerce
+msgid "out of %s5%s"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:30
+#, php-format
+#@ woocommerce
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:24
+#, php-format
+#@ woocommerce
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:26
+#@ woocommerce
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/widgets/widget-products.php:21
+#@ woocommerce
+msgid "Products"
+msgstr ""
+
+#: woocommerce/widgets/widget-products.php:35
+#@ woocommerce
+msgid "Show"
+msgstr ""
+
+#: woocommerce/widgets/widget-products.php:48
+#@ woocommerce
+msgid "Order by"
+msgstr ""
+
+#: woocommerce/widgets/widget-products.php:52
+#@ woocommerce
+msgid "Random"
+msgstr ""
+
+#: woocommerce/widgets/widget-products.php:53
+#@ woocommerce
+msgid "Sales"
+msgstr ""
+
+#: woocommerce/widgets/widget-products.php:59
+#@ woocommerce
+msgctxt "Sorting order"
+msgid "Order"
+msgstr ""
+
+#: woocommerce/widgets/widget-products.php:61
+#@ woocommerce
+msgid "ASC"
+msgstr ""
+
+#: woocommerce/widgets/widget-products.php:62
+#@ woocommerce
+msgid "DESC"
+msgstr ""
+
+#: woocommerce/widgets/widget-products.php:68
+#@ woocommerce
+msgid "Hide free products"
+msgstr ""
+
+#: woocommerce/widgets/widget-products.php:73
+#@ woocommerce
+msgid "Show hidden products"
+msgstr ""
+
+#: woocommerce/wishlist.php:80
+#@ yit
+msgid "Product Name"
+msgstr ""
+
+#: woocommerce/wishlist.php:81
+#@ yit
+msgid "Unit Price"
+msgstr ""
+
+#: woocommerce/wishlist.php:82
+#@ yit
+msgid "Stock Status"
+msgstr ""
+
+#: woocommerce/wishlist.php:105
+#@ yit
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist.php:125
+#@ yit
+msgid "Free!"
+msgstr ""
+
+#: woocommerce/wishlist.php:138
+#@ yit
+msgid "Out of Stock"
+msgstr ""
+
+#: woocommerce/wishlist.php:141
+#@ yit
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist.php:159
+#@ yit
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: templates/header/header-1.php:18
+#: templates/header/header-2.php:22
+#@ accessories
+msgid "Welcome to our store. Please"
+msgstr ""
+
+#: templates/header/header-1.php:24
+#: templates/header/header-2.php:28
+#@ accessories
+msgid "Welcome"
+msgstr ""
+

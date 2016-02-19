@@ -1,0 +1,1078 @@
+
+#modal-widgets .modal-body{
+  height: 400px;
+  overflow: auto;
+}
+.pgl-megamenu .mega-inner {
+  padding: 10px;
+  *zoom: 1;
+}
+.pgl-megamenu .mega-inner:before,
+.pgl-megamenu .mega-inner:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.pgl-megamenu .mega-inner:after {
+  clear: both;
+}
+.pgl-megamenu .row-fluid + .row-fluid {
+  padding-top: 10px;
+  border-top: 1px solid #eeeeee;
+}
+.pgl-megamenu .mega > .mega-dropdown-menu {
+  min-width: 200px;
+  display: none;
+}
+.pgl-megamenu .mega.open > .mega-dropdown-menu,
+.pgl-megamenu .mega.dropdown-submenu:hover > .mega-dropdown-menu {
+  display: block;
+}
+.pgl-megamenu .mega-group {
+  *zoom: 1;
+}
+.pgl-megamenu .mega-group:before,
+.pgl-megamenu .mega-group:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.pgl-megamenu .mega-group:after {
+  clear: both;
+}
+.pgl-megamenu .mega-nav .mega-group > .mega-group-title,
+.pgl-megamenu .dropdown-menu .mega-nav .mega-group > .mega-group-title,
+.pgl-megamenu .dropdown-menu .active .mega-nav .mega-group > .mega-group-title {
+  background: inherit;
+  color: inherit;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+.pgl-megamenu .mega-nav .mega-group > .mega-group-title:hover,
+.pgl-megamenu .dropdown-menu .mega-nav .mega-group > .mega-group-title:hover,
+.pgl-megamenu .dropdown-menu .active .mega-nav .mega-group > .mega-group-title:hover,
+.pgl-megamenu .mega-nav .mega-group > .mega-group-title:active,
+.pgl-megamenu .dropdown-menu .mega-nav .mega-group > .mega-group-title:active,
+.pgl-megamenu .dropdown-menu .active .mega-nav .mega-group > .mega-group-title:active,
+.pgl-megamenu .mega-nav .mega-group > .mega-group-title:focus,
+.pgl-megamenu .dropdown-menu .mega-nav .mega-group > .mega-group-title:focus,
+.pgl-megamenu .dropdown-menu .active .mega-nav .mega-group > .mega-group-title:focus {
+  background: inherit;
+  color: inherit;
+}
+.pgl-megamenu .mega-group-ct {
+  margin: 0;
+  padding: 0;
+  *zoom: 1;
+}
+.pgl-megamenu .mega-group-ct:before,
+.pgl-megamenu .mega-group-ct:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.pgl-megamenu .mega-group-ct:after {
+  clear: both;
+}
+.pgl-megamenu .span12.mega-col-nav .mega-inner {
+  padding: 5px;
+}
+.pgl-megamenu .mega-group .span12.mega-col-nav .mega-inner {
+  padding: 0;
+}
+.pgl-megamenu .mega-nav,
+.pgl-megamenu .dropdown-menu .mega-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pgl-megamenu .mega-nav > li,
+.pgl-megamenu .dropdown-menu .mega-nav > li {
+  list-style: none;
+  margin-left: 0;
+}
+.pgl-megamenu .mega-nav > li a,
+.pgl-megamenu .dropdown-menu .mega-nav > li a {
+  white-space: normal;
+}
+.pgl-megamenu .mega-group > .mega-nav,
+.pgl-megamenu .dropdown-menu .mega-group > .mega-nav {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.pgl-megamenu .mega-nav .dropdown-submenu > a::after {
+  margin-right: 5px;
+}
+.pgl-megamenu .pgl-module {
+  margin-bottom: 10px;
+}
+.pgl-megamenu .pgl-module .module-title {
+  margin-bottom: 0;
+}
+.pgl-megamenu .pgl-module .module-ct {
+  margin: 0;
+  padding: 0;
+}
+.pgl-megamenu .mega-align-left > .dropdown-menu {
+  left: 0;
+}
+.pgl-megamenu .mega-align-right > .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+.pgl-megamenu .mega-align-center > .dropdown-menu {
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+.pgl-megamenu .dropdown-submenu.mega-align-left > .dropdown-menu {
+  left: 100%;
+}
+.pgl-megamenu .dropdown-submenu.mega-align-right > .dropdown-menu {
+  left: auto;
+  right: 100%;
+}
+.pgl-megamenu .mega-align-justify {
+  position: static;
+}
+.pgl-megamenu .mega-align-justify > .dropdown-menu {
+  left: 0;
+  margin-left: 0;
+  top: auto;
+}
+.pgl-megamenu .mega-caption {
+  display: block;
+  white-space: nowrap;
+}
+.pgl-megamenu .nav .caret,
+.pgl-megamenu .dropdown-submenu .caret,
+.pgl-megamenu .mega-menu .caret {
+  display: none;
+}
+.pgl-megamenu .nav > .dropdown > .dropdown-toggle .caret {
+  display: inline-block;
+}
+.pgl-megamenu .nav [class^="icon-"],
+.pgl-megamenu .nav [class*=" icon-"] {
+  margin-right: 5px;
+}
+@media (min-width: 768px) {
+  .pgl-megamenu.animate .mega  > .mega-dropdown-menu {
+    transition: all 400ms;
+    -webkit-transition: all 400ms;
+    -ms-transition: all 400ms;
+    -o-transition: all 400ms;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    opacity: 0;
+  }
+  .pgl-megamenu.animate .mega.animating > .mega-dropdown-menu {
+    display: block!important;
+  }
+  .pgl-megamenu.animate .mega.open > .mega-dropdown-menu,
+  .pgl-megamenu.animate .mega.animating.open > .mega-dropdown-menu {
+    opacity: 1;
+  }
+  .pgl-megamenu.animate.zoom .mega  > .mega-dropdown-menu {
+    transform: scale(0, 0);
+    transform-origin: 20% 20%;
+    -webkit-transform: scale(0, 0);
+    -webkit-transform-origin: 20% 20%;
+    -ms-transform: scale(0, 0);
+    -ms-transform-origin: 20% 20%;
+    -o-transform: scale(0, 0);
+    -o-transform-origin: 20% 20%;
+  }
+  .pgl-megamenu.animate.zoom .mega.open > .mega-dropdown-menu {
+    transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+  }
+  .pgl-megamenu.animate.elastic .level0 > .mega > .mega-dropdown-menu {
+    transform: scale(1, 0);
+    -webkit-transform: scale(1, 0);
+    -ms-transform: scale(1, 0);
+    -o-transform: scale(1, 0);
+  }
+  .pgl-megamenu.animate.elastic .mega  > .mega-dropdown-menu {
+    transform: scale(0, 1);
+    transform-origin: 10% 0;
+    -webkit-transform: scale(0, 1);
+    -webkit-transform-origin: 10% 0;
+    -ms-transform: scale(0, 1);
+    -ms-transform-origin: 10% 0;
+    -o-transform: scale(0, 1);
+    -o-transform-origin: 10% 0;
+  }
+  .pgl-megamenu.animate.elastic .mega.open > .mega-dropdown-menu {
+    transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+  }
+  .pgl-megamenu.animate.slide .mega {
+    /* Level 0 */
+  
+    /* Level > 0 */
+  
+  }
+  .pgl-megamenu.animate.slide .mega.animating > .mega-dropdown-menu {
+    overflow: hidden;
+  }
+  .pgl-megamenu.animate.slide .mega  > .mega-dropdown-menu  > div {
+    transition: all 400ms;
+    -webkit-transition: all 400ms;
+    -ms-transition: all 400ms;
+    -o-transition: all 400ms;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    margin-top: -100%;
+  }
+  .pgl-megamenu.animate.slide .mega.open > .mega-dropdown-menu  > div {
+    margin-top: 0%;
+  }
+  .pgl-megamenu.animate.slide .mega .mega > .mega-dropdown-menu {
+    min-width: 0;
+  }
+  .pgl-megamenu.animate.slide .mega .mega > .mega-dropdown-menu  > div {
+    min-width: 200px;
+    margin-top: 0;
+    margin-left: -500px;
+  }
+  .pgl-megamenu.animate.slide .mega .mega.open > .mega-dropdown-menu > div {
+    margin-left: 0;
+  }
+}
+html[dir="rtl"] .pgl-megamenu .mega-align-left > .dropdown-menu {
+  right: 0;
+}
+html[dir="rtl"] .pgl-megamenu .mega-align-right > .dropdown-menu {
+  right: auto;
+  left: 0;
+}
+html[dir="rtl"] .pgl-megamenu .mega-align-center > .dropdown-menu {
+  right: 50%;
+  transform: translate(50%);
+  -webkit-transform: translate(50%);
+  -moz-transform: translate(50%);
+  -ms-transform: translate(50%);
+  -o-transform: translate(50%);
+}
+html[dir="rtl"] .pgl-megamenu .dropdown-submenu.mega-align-left > .dropdown-menu {
+  right: 100%;
+}
+html[dir="rtl"] .pgl-megamenu .dropdown-submenu.mega-align-right > .dropdown-menu {
+  right: auto;
+  left: 100%;
+}
+html[dir="rtl"] .pgl-megamenu .mega-align-justify > .dropdown-menu {
+  right: 0;
+  margin-right: 0;
+  top: auto;
+}
+html[dir="rtl"] .pgl-megamenu .mega-nav .dropdown-submenu > a:after {
+  direction: ltr;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body .header {
+  padding: 10px 20px;
+}
+
+body .header h1 {
+  margin: 0;
+  color: #fff;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+}
+
+#pgl-admin-megamenu,#pgl-admin-listwidgets {
+  min-height: 800px;
+  padding: 0 20px;
+  position: relative;
+}
+#pgl-admin-megamenu {
+  background: url(../images/grid-bg.jpg) top left;
+}
+
+.admin-inline-toolbox h3 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+body .pgl-admin-header {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #e6e6e6;
+  position: relative;
+}
+
+.pgl-admin-header .btn-toolbar {
+  margin: 15px 0;
+}
+
+
+/* Intro
+---------------------*/
+#pgl-admin-mm-intro {
+  float: left;
+  padding: 20px 200px 20px 20px;
+}
+
+#pgl-admin-mm-intro h3 {
+  margin-top: 0;
+}
+
+#pgl-admin-mm-intro p {
+  display: block;
+  color: #999999;
+  max-height: 50px;
+  overflow: hidden;
+}
+
+
+
+/* Toolbox
+---------------------*/
+#pgl-admin-mm-tb {
+  float: left;
+}
+
+#pgl-admin-megamenu .admin-inline-toolbox {
+  height: 128px;
+  border-bottom: 1px solid #e6e6e6;
+  margin: 0 -20px 20px;
+  background: #f2f2f2;
+}
+
+#pgl-admin-mm-tb .admin-toolbox {
+  height: 128px;
+  padding: 20px;
+  display: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+#pgl-admin-mm-tb .admin-toolbox h3 {
+  margin-top: 0;
+}
+
+#pgl-admin-mm-tb .admin-toolbox ul {
+  margin-right: 20px;
+  float: left;
+}
+
+#pgl-admin-mm-tb .admin-toolbox li > label {
+  font-size: 11px;
+  color: #999999;
+  display: inline-block;
+
+}
+
+#pgl-admin-mm-tb .btn [class^="icon-"],
+#pgl-admin-mm-tb .btn [class*=" icon-"] {
+  margin-right: 0;
+}
+
+
+/* Toolbox Actions ---- */
+.pgl-admin-mm-row .toolbox-actions-group {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.pgl-admin-mm-row .toolbox-actions-group button {
+}
+
+
+/* Fullscreen Toggle */
+#pgl-admin-megamenu .pgl-admin-tog-fullscreen {
+  display: none !important;
+  /*position: absolute;
+  right: 0;
+  top: -50px;*/
+}
+
+#pgl-admin-megamenu .toolbox-saveConfig {
+  display: none !important;
+}
+
+
+/* The Menu
+---------------------*/
+#pgl-admin-mm-container {
+  float: left;
+  transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+}
+
+
+/* Global Menu Inner padding ---*/
+.pgl-megamenu .mega-inner {
+  padding: 10px;
+}
+
+
+/* Menu Grid ---*/
+.pgl-megamenu .row-fluid + .row-fluid {
+  margin-top: 0;
+  border-top: 0;
+}
+
+.pgl-megamenu .row-fluid [class*="span"] {
+  border: 1px dotted #ccc;
+  border-radius: 0;
+  background: white;
+}
+
+
+/* The Nav ---*/
+.pgl-megamenu .span12.mega-col-nav .mega-inner,
+.pgl-megamenu .mega-group .span12.mega-col-nav .mega-inner {
+  padding: 10px;
+}
+
+.pgl-megamenu .nav > li {
+  margin-right: 20px;
+}
+
+.pgl-megamenu .nav > li > a,
+.pgl-megamenu .nav > li > span {
+  border: 1px solid #ccc;
+  padding: 7px 10px;
+  background: #f2f2f2;
+  font-weight: bold;
+  border-radius: 0;
+  display: block;
+}
+
+/* The caret */
+.pgl-megamenu .mega-nav .dropdown-submenu > a::after {
+  margin-right: -10px;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+  box-shadow: none;
+}
+
+
+/* Dropdown ---*/
+.pgl-megamenu .dropdown-menu::before,
+.pgl-megamenu .dropdown-menu::after {
+  display: none !important; /* Hide the Arrow */
+}
+
+.pgl-megamenu .dropdown-menu {
+  border: 1px solid #aaa;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0;
+  min-width: 200px;
+  background: #f2f2f2;
+  box-shadow: 3px 3px 0 #e6e6e6;
+  z-index: 99;
+  /* Fixed overlap with the Joomla Toolbar */
+}
+
+.pgl-megamenu .dropdown-menu .dropdown-menu {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.pgl-megamenu .dropdown-submenu.mega-align-right .dropdown-menu {
+  margin-left: 0;
+  margin-right: 11px;
+}
+
+.pgl-megamenu .mega-nav li {
+  margin-bottom: 5px;
+}
+
+.pgl-megamenu .mega-nav li:last-child {
+  margin-bottom: 0;
+}
+
+.pgl-megamenu .mega-nav li > a,
+.pgl-megamenu .mega-nav li > span {
+  padding: 5px 20px 5px 10px;
+  border: 1px dotted #ccc;
+  background: #fff;
+  border-radius: 0;
+  font-size: 12px;
+  color: #999;
+}
+
+
+/* The group ---*/
+.pgl-megamenu .mega-nav .mega-group-title,
+.pgl-megamenu .mega-nav .mega-group > .mega-group-title,
+.pgl-megamenu .dropdown-menu .mega-nav .mega-group > .mega-group-title {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px dotted #ccc;
+}
+
+.pgl-megamenu .mega-group-ct {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  border-radius: 0;
+  background: #f2f2f2;
+}
+
+.pgl-megamenu .mega-group-ct > .row-fluid > [class*="span"] > .mega-inner {
+  padding: 10px;
+}
+
+
+/* Module in Menu ---*/
+.pgl-megamenu .pgl-module {
+  pointer-events: none;
+  cursor: default;
+  position: relative;
+  margin: 0;
+}
+
+.pgl-megamenu .pgl-module:after {
+  display: block;
+  position: absolute;
+  background: #eeeeee;
+  right: -10px;
+  bottom: -10px;
+  content: "Widget";
+  width: 70px;
+  padding: 2px 0;
+  text-align: center;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #999;
+  border-radius: 0;
+  border: 1px solid #dddddd;
+  border-width: 1px 0 0 1px;
+}
+
+.pgl-megamenu .pgl-module .module-inner {
+  opacity: .3;
+  font-size: 12px;
+}
+
+.pgl-megamenu .pgl-module .module-title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: normal;
+}
+
+.pgl-megamenu .pgl-module .module-ct {
+  overflow: hidden;
+  zoom: 1;
+}
+
+/* Reset List Style in Module */
+.pgl-megamenu .pgl-module ul,
+.pgl-megamenu .pgl-module .nav,
+.pgl-megamenu .dropdown-menu .nav {
+  margin: 0 0 0 15px;
+}
+.pgl-megamenu .pgl-module ul li,
+.pgl-megamenu .pgl-module .nav li,
+.pgl-megamenu .dropdown-menu .nav li {
+  list-style: disc;
+  display: list-item;
+  float: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.pgl-megamenu .pgl-module ul li a,
+.pgl-megamenu .pgl-module .nav li a,
+.pgl-megamenu .dropdown-menu .pgl-module li a {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  background: none;
+  font: inherit;
+  white-space: normal;
+}
+.pgl-megamenu .pgl-module ul li a:hover,
+.pgl-megamenu .pgl-module .nav li a:hover,
+.pgl-megamenu .dropdown-menu .pgl-module li a:hover,
+.pgl-megamenu .pgl-module ul li a:active,
+.pgl-megamenu .pgl-module .nav li a:active,
+.pgl-megamenu .dropdown-menu .pgl-module li a:active,
+.pgl-megamenu .pgl-module ul li a:focus,
+.pgl-megamenu .pgl-module .nav li a:focus,
+.pgl-megamenu .dropdown-menu .pgl-module li a:focus,
+.pgl-megamenu .pgl-module ul li a:visited,
+.pgl-megamenu .pgl-module .nav li a:visited,
+.pgl-megamenu .dropdown-menu .pgl-module li a:visited {
+  background: none;
+  color: inherit;
+  font: inherit;
+}
+
+
+.pgl-megamenu [class*="span"].hover .pgl-module:after,
+.pgl-megamenu [class*="span"].selected .pgl-module:after {
+  border-style: solid;
+  border-color: #07b;
+  background: #07b;
+  color: #fff;
+}
+
+/* Fix Form display problem in Modules */
+.pgl-megamenu .pgl-module .control-group {
+  margin-bottom: 5px;
+}
+
+.pgl-megamenu .pgl-module .controls {
+  margin-left: 3px;
+}
+
+
+/* Open Item ---*/
+.pgl-megamenu .nav > li.open > a,
+.pgl-megamenu .open > a,
+.pgl-megamenu .open > .mega-group-title {
+  background: #07b !important;
+  border-color: #07b !important;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+.pgl-megamenu .open > .mega-group-title > a {
+  color: #fff !important;
+}
+
+.pgl-megamenu .nav > li.open > a > .caret,
+.pgl-megamenu .open > a > .caret {
+  border-top-color: #fff !important;
+}
+
+
+/* Hover Item ---*/
+.pgl-megamenu .nav-child.hover,
+.pgl-megamenu ul[class*="level"] > li > a.hover,
+.pgl-megamenu ul[class*="level"] > li > span.hover,
+.pgl-megamenu .row-fluid [class*="span"].hover {
+  border-style: solid !important;
+  border-color: #07b !important;
+}
+
+.pgl-megamenu ul[class*="level"] > li > a:hover,
+.pgl-megamenu ul[class*="level"] > li > a:focus,
+.pgl-megamenu ul[class*="level"] > li > a:active {
+  background: #fff!important;
+  color: #333 !important;
+  text-shadow: none !important;
+}
+
+
+.pgl-megamenu ul[class*="level"] > li > a:hover > .caret,
+.pgl-megamenu ul[class*="level"] > li > a:focus > .caret,
+.pgl-megamenu ul[class*="level"] > li > a:active > .caret {
+  border-top-color: #333 !important;
+}
+
+/* The caret */
+.pgl-megamenu .mega-nav li a.hover:after,
+.pgl-megamenu .mega-nav li a.selected:after {
+  border-left-color: #333333;
+}
+
+/* The seperator */
+.pgl-megamenu .mega-nav .divider .separator {
+  display: none;
+}
+
+/* The Icons */
+.pgl-megamenu .nav [class^="icon-"],
+.pgl-megamenu .nav [class*=" icon-"],
+.pgl-megamenu .nav .fa {
+  margin-right: 5px;
+}
+
+/* Selected Item ---*/
+.pgl-megamenu .selected {
+  border-style: solid !important;
+  border-color: #07b !important;
+}
+
+/* The caption ---*/
+.mega-caption {
+  color: #999;
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+
+/* Fix for Joomla! Default Admin Template
+--------------------------------------------------*/
+#pgl-admin-megamenu .dropdown-menu a {
+  white-space: normal;
+}
+
+#pgl-admin-megamenu .row-fluid [class*="span"] {
+  margin-left: 2.12766%;
+}
+
+#pgl-admin-megamenu .row-fluid [class*="span"]:first-child {
+  margin-left: 0;
+}
+
+/* Fix right spacing for chzn chosen in Megamenu Admin UI */
+#pgl-admin-megamenu ul.chzn-results {
+  margin-right: 4px;
+  float: none;
+}
+
+.chzn-container-multi .chzn-choices {
+  padding: 1px 0;
+}
+
+/* Fix submenu auto open on hover */
+#pgl-admin-megamenu .dropdown-submenu:hover .dropdown-menu {
+  display: none;
+}
+
+#pgl-admin-megamenu .dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+
+/* Header Form Control ---*/ 
+.pgl-admin-header .control-group {
+  width: auto !important;
+  display: block;
+  float: left;
+  margin: 15px 20px 15px 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  min-height: 30px;
+}
+
+.pgl-admin-header .control-group.hide {
+  display: none;
+}
+
+.pgl-admin-header .control-label {
+  width: auto !important;
+  display: block;
+  float: left;
+  padding: 8px 0 0 0;
+}
+
+.pgl-admin-header .controls {
+  margin: 0 0 0 10px;
+  width: auto !important;
+  display: block;
+  float: left;
+  padding: 0;
+  background: none;
+}
+
+.pgl-admin-header .inputbox,
+.pgl-admin-header .input {
+  width: 250px;
+  font-weight: bold;
+}
+
+
+/* Ajax loader ---*/
+#pgl-admin-megamenu .ajaxloader {
+  width: 300px;
+  height: 20px;
+  position: absolute;
+  top: 130px;
+  left: -999em;
+  border-radius: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  -o-transition: opacity 0.5s ease-out;
+  -moz-transition: opacity 0.5s ease-out;
+  -webkit-transition: opacity 0.5s ease-out;
+}
+
+
+#pgl-admin-megamenu .progress {
+  border-radius: 0;
+}
+
+#pgl-admin-megamenu .ajaxloader .bar {
+  width: 0%;
+}
+
+#pgl-admin-megamenu.loading .ajaxloader {
+  left: 20px;
+  opacity: 1;
+}
+
+#pgl-admin-megamenu.loading .ajaxloader .bar {
+  width: 100%;
+}
+
+#pgl-admin-megamenu.loading #pgl-admin-mm-container {
+  opacity: 0;
+}
+
+/* Hidden */
+#pgl-admin-megamenu .hidden,
+#pgl-admin-megamenu .hide {
+  display: block;
+  visibility: visible;
+  opacity: 0.3;
+}
+
+/* Modal ---*/
+.ajax-message {
+  position: fixed;
+  top: -100px;
+  opacity: 0;
+  left: 50%;
+  z-index: 1050;
+  overflow: auto;
+  width: 400px;
+  margin-left: -200px;
+  background-color: #fff;
+  border-radius: 0;
+  
+  transition: all 2s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  -o-transition: all 2s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  -moz-transition: all 2s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  -webkit-transition: all 2s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+.ajax-message.in {
+  top: 50px;
+  opacity: 1;
+}
+
+
+
+.modal-open .modal .dropdown-menu {
+  z-index: 2050;
+}
+
+.modal-open .modal .dropdown.open {
+  *z-index: 2050;
+}
+
+.modal-open .modal .popover {
+  z-index: 2060;
+}
+
+.modal-open .modal .tooltip {
+  z-index: 2080;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000000;
+}
+
+.modal-backdrop.fade {
+  opacity: 0;
+}
+
+.modal-backdrop,
+.modal-backdrop.fade.in {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    -webkit-appearance: none
+}
+
+.modal-open {
+    overflow: hidden
+}
+
+.modal {
+    display: none;
+    overflow: auto;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transform: translate(0,-25%);
+    -ms-transform: translate(0,-25%);
+    transform: translate(0,-25%);
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -moz-transition: -moz-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: transform .3s ease-out
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0)
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    background-clip: padding-box;
+    outline: 0
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000
+}
+
+.modal-backdrop.fade {
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.modal-backdrop.in {
+    opacity: .5;
+    filter: alpha(opacity=50)
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 16.42857143px
+}
+
+.modal-header .close {
+    margin-top: -2px
+}
+
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143
+}
+
+.modal-body {
+    position: relative;
+    padding: 20px 20px 0;
+}
+
+.modal-footer {
+    margin-top: 15px;
+    padding: 19px 20px 20px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5
+}
+
+.modal-footer .btn+.btn {
+    margin-left: 5px;
+    margin-bottom: 0
+}
+
+.modal-footer .btn-group .btn+.btn {
+    margin-left: -1px
+}
+
+.modal-footer .btn-block+.btn-block {
+    margin-left: 0
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width:800px;
+        margin: 30px auto
+    }
+
+    .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+        box-shadow: 0 5px 15px rgba(0,0,0,.5)
+    }
+
+    .modal-sm {
+        width: 300px
+    }
+}
+
+@media (min-width: 992px) {
+    .modal-lg {
+        width:900px
+    }
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+
+.form-group label{
+  font-weight: bold;
+}
+.form-group input,.form-group select{
+  height: auto!important;
+  padding: 4px!important;
+}
+
+.mega-inner .pgl-shorcode-button{
+  width:100%;
+  padding:0;
+}
+
+.pgl-megamenu [class*="span"].hover .pgl-module:after, .pgl-megamenu [class*="span"].selected .pgl-module:after{
+  content: ""!important;
+ border:0!important;
+ padding: 0!important;
+}

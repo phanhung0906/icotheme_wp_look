@@ -1,0 +1,113 @@
+/**
+ * --------------------------------------------------------------------------------
+ * 5.0 - Sidebar
+ * --------------------------------------------------------------------------------
+ */
+.pgl-sidebar{
+    .widget_owlshop_menu_vertical{
+        .widget-inner{
+            background: #222222;
+            a{
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    
+    .widget{
+        position: relative;
+        margin-bottom: 40px;
+        padding: 20px 15px;
+        border: 1px solid @border-color;
+        .widget-title{
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid @border-color;
+        }
+    }
+
+    .tagcloud{
+        a{
+            background-color: @dark-white;
+            border-color: @dark-white;
+            color: @text-color;
+            &:hover{
+                background-color: #333333;
+                border-color: #333333;
+                color:#fff;
+            }
+        }
+    }
+
+    .flickr_badge_image{
+        margin: 0 10px 10px 0;
+        &:nth-child(3n+1){
+            margin-right: 0;
+        }
+    }
+
+    .pgl_search{
+        input[type="text"]{
+            border: 1px solid @theme-color-border;
+        }
+    }
+    
+    ul.product-categories{
+        li{
+            position: relative;
+            a{
+                color: @theme-color-default;
+                display: block;
+                .transition(all 0.5s ease-out 0s);
+            }
+            
+            &.current-cat-parent,&.current-cat{
+                > a{
+                    color:@main-color;
+                }
+            }
+            .count {
+                line-height: 26px;
+                position: absolute;
+                right: 12px;
+                top: 0;
+                color: #ccc;
+            }
+        }
+    }
+
+    ul{
+        margin-bottom: 0;
+        list-style: none;
+        padding:0;
+        li{
+            margin-bottom: 5px;
+            position: relative;
+            &:last-child{
+                border-bottom: none;
+            }
+            a{
+                line-height: 1.6;
+                color: @theme-color-default;
+                .transition(all 0.5s ease-out 0s);
+                &:hover{
+                    color: @theme-color-secondary;
+                }
+            }
+            ul.sub-menu,ul.children{
+                li{
+                    border-bottom: none;
+                    padding-left: @padding-large-vertical;
+                }
+            }
+        }
+    }
+    
+    select{
+        width: 100%;
+        .border-radius(0px);
+        padding: 4px;
+        border: 1px solid @theme-color-border;
+    }
+}
