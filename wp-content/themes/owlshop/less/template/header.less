@@ -25,7 +25,7 @@ body.boxed{
 }
 
 .pgl-header{
-    background-image: none;
+    background-color: #333333;
     z-index: 100;
     top:-100%;
     .transition(top 0.4s);
@@ -51,11 +51,19 @@ body.boxed{
             .megamenu >li >a{
                 padding-top: 19px;
                 padding-bottom: 19px;
+                color: #333333;
             }
             .content-action{
                 padding: 7px 0;
             }
+            .header-hr{
+                display: none;
+            }
         }
+    }
+    .header-hr{
+        border-bottom: 1px solid #808080;
+        padding: 30px;
     }
     .search-wrapper{
         position: absolute;
@@ -213,24 +221,25 @@ body.boxed{
     position: relative;
     &:hover{
         .fa{
-            color: @theme-color-secondary;
+            color: @text-color;
         }
     }
     .fa{
         position: absolute;
-        right: 10px;
+        right: 15px;
         line-height: 38px;
-        color: @text-color;
+        color: @white;
         top: 0;
         z-index: 1;
     }
     input{
         background-color: transparent;
-        color: @theme-color-default;
+        color: @white;
     }
     input[type="text"]{
-        background-color: @white;
-        .border-radius(0px);
+        background-color: transparent;
+        border: 1px solid #808080;
+        padding: 17px 15px 16px 20px;
     }
     > input[type="submit"] {
         border: medium none;

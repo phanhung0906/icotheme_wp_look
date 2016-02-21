@@ -11,13 +11,52 @@
 ?>
 <header id="pgl-header" class="pgl-header">
     <div class="header-content">
-        <div class="container">
-            <div class="header-content-inner">
+        <div class="header-content-inner header-hr">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-2 col-sm-3 logo">
+                    <div class="col-md-4">
+                        <div id="wp-search">
+                            <div class="wrapper-inner">
+                                <?php get_search_form(); ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+
+                    </div>
+                    <div class="col-md-4">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-content-inner header-hr">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div id="wp-search">
+                            <div class="wrapper-inner">
+                                <?php get_search_form(); ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
                         <?php do_action('owlshop_set_logo'); ?>
                     </div>
-                    <div class="col-md-8 col-sm-7 hidden-xs hidden-sm content-navigation">
+                    <div class="col-md-4">
+                        <div id="wp-search">
+                            <div class="wrapper-inner">
+                                <?php get_search_form(); ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-content-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 hidden-xs hidden-sm content-navigation">
                         <?php pgl_megamenu(array(
                             'theme_location' => 'mainmenu',
                             'container_class' => 'collapse navbar-collapse navbar-ex1-collapse',
@@ -25,16 +64,23 @@
                             'show_toggle' => false
                         )); ?>
                     </div>
-                    <div class="col-md-2 col-sm-9 content-action">
+                    <ul class="nav navbar-nav icon-action">
+                        <li>
+                            <a href="javascript:;" class="off-canvas-toggle icon-toggle" data-uk-offcanvas="{target:'#pgl-off-canvas'}">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
+                    </ul>
+                  <!--  <div class="col-md-2 col-sm-9 content-action">
                         <ul class="nav navbar-nav icon-action">
-                            <?php if(PLG_WOOCOMMERCE_ACTIVED && isset($theme_option['header-is-cart'])&& $theme_option['header-is-cart']): ?>
+                            <?php /*if(PLG_WOOCOMMERCE_ACTIVED && isset($theme_option['header-is-cart'])&& $theme_option['header-is-cart']): */?>
                             <li class="dropdown">
                                 <a href="javascript:;" data-uk-offcanvas="{target:'#pgl_cart_canvas'}" class="shoppingcart">
                                     <i class="fa fa-shopping-cart"></i>
-                                    <span class="text"><?php echo esc_html($woocommerce->cart->cart_contents_count); ?></span>
+                                    <span class="text"><?php /*echo esc_html($woocommerce->cart->cart_contents_count); */?></span>
                                 </a>
                             </li>
-                            <?php endif; ?>
+                            <?php /*endif; */?>
                             <li>
                                 <a href="#" class="search-action">
                                     <i class="fa fa-search"></i>
@@ -51,14 +97,9 @@
                                 </a>
                             </li>
                         </ul>
-                    </div>
+                    </div>-->
                 </div>
             </div>
-        </div>
-    </div>
-    <div id="wp-search" class="search-wrapper">
-        <div class="container wrapper-inner">
-            <?php get_search_form( ); ?>
         </div>
     </div>
     <?php do_action('pgl_after_header'); ?>

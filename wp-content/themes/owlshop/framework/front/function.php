@@ -140,8 +140,10 @@ function owlshop_init_styles_scripts(){
         wp_enqueue_style('owl-carousel-base',PGL_THEME_URI.'/owl-carousel/owl.carousel.css',array(),PGL_THEME_VERSION);
         wp_enqueue_style('owl-carousel-theme',PGL_THEME_URI.'/owl-carousel/owl.theme.css',array(),PGL_THEME_VERSION);
         wp_enqueue_style('owl-carousel-transitions',PGL_THEME_URI.'/owl-carousel/owl.transitions.css',array(),PGL_THEME_VERSION);
-       
-        wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
+
+        // DEV ENVIRONMENT
+        wp_enqueue_style('theme-style',PGL_THEME_URI.'/less/style.css',array(),PGL_THEME_VERSION);
+//        wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
     } 
 
 

@@ -597,13 +597,14 @@ h4.heading{
     .tp-bullets.simplebullets.round{
         .bullet{
             .size(12px,12px);
-            background: #111;
-            .opacity(0.5);
-            border: 1px solid #868686;
+            background: @white;
+		  	border-radius: 25px;
         }
         > .bullet.selected,
         > .bullet:hover{
             .opacity(1);
+		 	 border: 2px solid @white;
+		     background: @title-color;
         }
 
     }
