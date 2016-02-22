@@ -63,7 +63,12 @@ body.boxed{
     }
     .header-hr{
         border-bottom: 1px solid #808080;
-        padding: 30px;
+        &.header-first{
+            padding: 10px;
+        }
+        &.header-second{
+            padding: 30px;
+        }
     }
     .search-wrapper{
         position: absolute;
@@ -86,6 +91,44 @@ body.boxed{
         border-bottom: 1px solid @border-color;
         .header-content-inner{
             position: relative;
+            .menu-top{
+                color: @white;
+                ul{
+                    padding: 0;
+                    li{
+                        padding-left: 10px;
+                        font-size: 12px;
+                        list-style: none;
+                        i{
+                            padding-right: 5px;
+                            font-size: 15px;
+                        }
+                        span{
+                            font-size: 11px;
+                        }
+                        a{
+                            color: @white;
+                            &:hover{
+                                color: @grey;
+                            }
+                        }
+                    }
+                }
+            }
+            .menu-top1{
+                ul{
+                    li{
+                        float: left;
+                    }
+                }
+            }
+            .menu-top2{
+                ul{
+                    li{
+                        float: right;
+                    }
+                }
+            }
         }
         .logo{
             position: relative;
@@ -250,4 +293,5 @@ body.boxed{
         top: 0;
         z-index: 99999;
     }
+    max-width: 220px;
 }

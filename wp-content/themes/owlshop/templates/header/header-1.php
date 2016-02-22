@@ -11,26 +11,31 @@
 ?>
 <header id="pgl-header" class="pgl-header">
     <div class="header-content">
-        <div class="header-content-inner header-hr">
+        <?php if(PLG_WOOCOMMERCE_ACTIVED && isset($theme_option['header-is-cart'])&& $theme_option['header-is-cart']): ?>
+        <div class="header-content-inner header-hr header-first">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div id="wp-search">
-                            <div class="wrapper-inner">
-                                <?php get_search_form(); ?>
-                            </div>
+                    <div class="col-md-8 col-sm-4">
+                        <div class="menu-top menu-top1">
+                            <ul>
+                                <li><a href=""><i class="fa fa-lock"></i> <span><?php echo _('LOG IN/REGISTER') ?></span></a></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center">
-
-                    </div>
-                    <div class="col-md-4">
-
+                    <div class="col-md-4 col-sm-8">
+                        <div class="menu-top menu-top2">
+                            <ul>
+                                <li><a href="<?php echo get_permalink( get_page_by_path( 'checkout' ) ) ?>"><i class="fa fa-check-circle-o"></i> <span><?php echo _('CHECKOUT') ?></span></a></li>
+                                <li><a href="<?php echo get_permalink( get_page_by_path( 'wishlist' ) ) ?>"><i class="fa fa-gift"></i> <span><?php echo _('MY WHISTLE') ?></span></a></li>
+                                <li><a href="<?php echo get_permalink( get_page_by_path( 'my-account' ) ) ?>"><i class="fa fa-lock"></i> <span><?php echo _('MY ACCOUNT') ?></span></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="header-content-inner header-hr">
+        <?php endif ?>
+        <div class="header-content-inner header-hr header-second">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -46,7 +51,7 @@
                     <div class="col-md-4">
                         <div id="wp-search">
                             <div class="wrapper-inner">
-                                <?php get_search_form(); ?>
+                                <?php /*echo esc_html($woocommerce->cart->cart_contents_count); */?>
                             </div>
                         </div>
                     </div>
@@ -56,7 +61,7 @@
         <div class="header-content-inner">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-sm-12 hidden-xs hidden-sm content-navigation">
+                    <div class="col-md-12 col-sm-12 hidden-xs hidden-sm content-navigation text-center">
                         <?php pgl_megamenu(array(
                             'theme_location' => 'mainmenu',
                             'container_class' => 'collapse navbar-collapse navbar-ex1-collapse',
